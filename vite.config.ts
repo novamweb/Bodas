@@ -7,9 +7,6 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // IMPORTANTE PARA GITHUB PAGES
-    base: '/bodas/',
-
     plugins: [react(), tailwindcss()],
 
     define: {
