@@ -81,7 +81,9 @@ const content = {
     nav: [
       { name: "Inicio", path: "/" },
       { name: "Sobre Mí", path: "/sobre-mi" },
+      { name: "Mis Servicios", path: "/servicios" },
       { name: "Portfolio", path: "/portfolio" },
+      { name: "Premium", path: "/premium", premium: true },
       { name: "Contacto", path: "/contacto" }
     ],
     hero: "Elegance Mariages",
@@ -93,6 +95,18 @@ const content = {
     philosophyText: "Cada detalle cuenta. Desde la elección del lugar más recóndito hasta el último pétalo de flor, mi objetivo es crear una atmósfera internacional que cuente su historia personal de la manera más sofisticada posible.",
     services: "Servicios Exclusivos",
     servicesTitle: "Experiencias a Medida",
+    servicesPageIntro: "Diseñamos y coordinamos cada celebración con una atención absoluta al detalle, desde la primera idea hasta el último momento.",
+    premiumLabel: "Servicio Privado", premiumTitle: "Experiencias Premium",
+    premiumIntro: "Una propuesta exclusiva para quienes buscan llevar su celebración a un nivel superior, con un servicio completamente personalizado.",
+    premiumMainTitle: "Bridal Styling Experience",
+    premiumMainSubtitle: "Dirección estética luxury para una novia única.",
+    premiumMainDesc: "Una experiencia exclusiva de dirección estética y acompañamiento bridal para crear una imagen coherente, sofisticada y totalmente personalizada.",
+    premiumIncludesTitle: "Incluye",
+    premiumIncludes: ["Test de personalidad", "Asesoramiento de imagen", "Dirección Beauty", "Coordinación de vestido y complementos", "Acompañamiento durante el proceso"],
+    premiumMainPrice: "Desde 1.500 €",
+    premiumQuote: "La Wedding Planner diseña la boda. La Bridal Stylist diseña la presencia de los novios.",
+    premium1: "Concierge Privado", premium1Desc: "Acompañamiento personalizado durante todo el proceso, con atención directa y coordinación de cada necesidad especial.",
+    premium2: "Diseño Signature", premium2Desc: "Una experiencia estética creada desde cero, con una identidad única y una selección cuidada de cada detalle.",
     service1: "Planificación Integral",
     service1Desc: "Desde la concepción hasta la ejecución, cuidamos cada detalle de su gran día.",
     service2: "Bodas de Destino",
@@ -118,7 +132,9 @@ const content = {
     nav: [
       { name: "Home", path: "/" },
       { name: "The Visionary", path: "/sobre-mi" },
+      { name: "My Services", path: "/servicios" },
       { name: "The Collection", path: "/portfolio" },
+      { name: "Premium", path: "/premium", premium: true },
       { name: "Contact", path: "/contacto" }
     ],
     hero: "Elegance Mariages",
@@ -130,6 +146,18 @@ const content = {
     philosophyText: "Every detail matters. From the choice of the most remote venue to the last flower petal, my goal is to create an international atmosphere that tells your personal story in the most sophisticated way possible.",
     services: "Exclusive Services",
     servicesTitle: "Tailored Experiences",
+    servicesPageIntro: "We design and coordinate every celebration with absolute attention to detail, from the first idea to the final moment.",
+    premiumLabel: "Private Service", premiumTitle: "Premium Experiences",
+    premiumIntro: "An exclusive proposal for those who want to take their celebration to the next level, with a completely personalized service.",
+    premiumMainTitle: "Bridal Styling Experience",
+    premiumMainSubtitle: "Luxury aesthetic direction for a unique bride.",
+    premiumMainDesc: "An exclusive aesthetic direction and bridal support experience designed to create a coherent, sophisticated and fully personalized bridal image.",
+    premiumIncludesTitle: "Includes",
+    premiumIncludes: ["Personality test", "Image consulting", "Beauty direction", "Dress and accessories coordination", "Support throughout the process"],
+    premiumMainPrice: "From €1,500",
+    premiumQuote: "The Wedding Planner designs the wedding. The Bridal Stylist designs the couple's presence.",
+    premium1: "Private Concierge", premium1Desc: "Personalized support throughout the entire process, with direct attention and coordination of every special request.",
+    premium2: "Signature Design", premium2Desc: "A bespoke aesthetic experience created from scratch, with a unique identity and carefully selected details.",
     service1: "Full Planning",
     service1Desc: "From conception to execution, we take care of every detail of your big day.",
     service2: "Destination Weddings",
@@ -155,7 +183,9 @@ const content = {
     nav: [
       { name: "Accueil", path: "/" },
       { name: "À Propos", path: "/sobre-mi" },
+      { name: "Mes Services", path: "/servicios" },
       { name: "Portfolio", path: "/portfolio" },
+      { name: "Premium", path: "/premium", premium: true },
       { name: "Contact", path: "/contacto" }
     ],
     hero: "Elegance Mariages",
@@ -167,6 +197,18 @@ const content = {
     philosophyText: "Chaque détail compte. Du choix du lieu le plus reculé au dernier pétale de fleur, mon objectif est de créer une atmosphère internationale qui raconte votre histoire personnelle de la manière la plus sophistiquée possible.",
     services: "Services Exclusifs",
     servicesTitle: "Expériences Sur Mesure",
+    servicesPageIntro: "Nous concevons et coordonnons chaque célébration avec une attention absolue aux détails, de la première idée au dernier moment.",
+    premiumLabel: "Service Privé", premiumTitle: "Expériences Premium",
+    premiumIntro: "Une proposition exclusive pour ceux qui souhaitent élever leur célébration à un niveau supérieur, avec un service entièrement personnalisé.",
+    premiumMainTitle: "Bridal Styling Experience",
+    premiumMainSubtitle: "Direction esthétique luxury pour une mariée unique.",
+    premiumMainDesc: "Une expérience exclusive de direction esthétique et d'accompagnement bridal pour créer une image cohérente, sophistiquée et entièrement personnalisée.",
+    premiumIncludesTitle: "Comprend",
+    premiumIncludes: ["Test de personnalité", "Conseil en image", "Direction Beauty", "Coordination de la robe et des accessoires", "Accompagnement tout au long du processus"],
+    premiumMainPrice: "À partir de 1 500 €",
+    premiumQuote: "La Wedding Planner imagine le mariage. La Bridal Stylist imagine la présence des mariés.",
+    premium1: "Conciergerie Privée", premium1Desc: "Un accompagnement personnalisé tout au long du processus, avec une attention directe et la coordination de chaque demande spéciale.",
+    premium2: "Design Signature", premium2Desc: "Une expérience esthétique créée sur mesure, avec une identité unique et une sélection minutieuse de chaque détail.",
     service1: "Planification Complète",
     service1Desc: "De la conception à l'exécution, nous prenons soin de chaque détail de votre grand jour.",
     service2: "Mariages de Destination",
@@ -192,7 +234,9 @@ const content = {
     nav: [
       { name: "Home", path: "/" },
       { name: "Chi Sono", path: "/sobre-mi" },
+      { name: "I Miei Servizi", path: "/servicios" },
       { name: "Portfolio", path: "/portfolio" },
+      { name: "Premium", path: "/premium", premium: true },
       { name: "Contatti", path: "/contacto" }
     ],
     hero: "Elegance Mariages",
@@ -204,6 +248,18 @@ const content = {
     philosophyText: "Ogni dettaglio conta. Dalla scelta della location più remota all'ultimo petalo di fiore, il mio obiettivo è creare un'atmosfera internazionale che racconti la vostra storia personale nel modo più sofisticato possibile.",
     services: "Servizi Esclusivi",
     servicesTitle: "Esperienze Su Misura",
+    servicesPageIntro: "Progettiamo e coordiniamo ogni celebrazione con un'attenzione assoluta ai dettagli, dalla prima idea all'ultimo momento.",
+    premiumLabel: "Servizio Privato", premiumTitle: "Esperienze Premium",
+    premiumIntro: "Una proposta esclusiva per chi desidera portare la propria celebrazione a un livello superiore, con un servizio completamente personalizzato.",
+    premiumMainTitle: "Bridal Styling Experience",
+    premiumMainSubtitle: "Direzione estetica luxury per una sposa unica.",
+    premiumMainDesc: "Un'esperienza esclusiva di direzione estetica e accompagnamento bridal per creare un'immagine coerente, sofisticata e completamente personalizzata.",
+    premiumIncludesTitle: "Include",
+    premiumIncludes: ["Test della personalità", "Consulenza d'immagine", "Direzione Beauty", "Coordinamento abito e accessori", "Accompagnamento durante il percorso"],
+    premiumMainPrice: "A partire da 1.500 €",
+    premiumQuote: "La Wedding Planner progetta il matrimonio. La Bridal Stylist progetta la presenza degli sposi.",
+    premium1: "Concierge Privato", premium1Desc: "Assistenza personalizzata durante tutto il processo, con attenzione diretta e coordinamento di ogni richiesta speciale.",
+    premium2: "Design Signature", premium2Desc: "Un'esperienza estetica creata su misura, con un'identità unica e una selezione accurata di ogni dettaglio.",
     service1: "Pianificazione Completa",
     service1Desc: "Dalla concezione all'esecuzione, ci prendiamo cura di ogni dettaglio del vostro grande giorno.",
     service2: "Matrimoni di Destinazione",
@@ -229,7 +285,9 @@ const content = {
     nav: [
       { name: "Startseite", path: "/" },
       { name: "Über Mich", path: "/sobre-mi" },
+      { name: "Meine Leistungen", path: "/servicios" },
       { name: "Portfolio", path: "/portfolio" },
+      { name: "Premium", path: "/premium", premium: true },
       { name: "Kontakt", path: "/contacto" }
     ],
     hero: "Elegance Mariages",
@@ -241,6 +299,18 @@ const content = {
     philosophyText: "Jedes Detail zählt. Von der Wahl des entlegensten Ortes bis zum letzten Blütenblatt ist es mein Ziel, eine internationale Atmosphäre zu schaffen, die Ihre persönliche Geschichte auf die anspruchsvollste Weise erzählt.",
     services: "Exklusive Dienstleistungen",
     servicesTitle: "Maßgeschneiderte Erlebnisse",
+    servicesPageIntro: "Wir gestalten und koordinieren jede Feier mit absoluter Liebe zum Detail – von der ersten Idee bis zum letzten Moment.",
+    premiumLabel: "Privater Service", premiumTitle: "Premium-Erlebnisse",
+    premiumIntro: "Ein exklusives Angebot für alle, die ihre Feier auf ein höheres Niveau heben möchten – mit einem vollständig personalisierten Service.",
+    premiumMainTitle: "Bridal Styling Experience",
+    premiumMainSubtitle: "Luxuriöse ästhetische Beratung für eine einzigartige Braut.",
+    premiumMainDesc: "Eine exklusive Erfahrung aus ästhetischer Beratung und Bridal-Begleitung, die ein stimmiges, elegantes und vollständig persönliches Erscheinungsbild schafft.",
+    premiumIncludesTitle: "Enthält",
+    premiumIncludes: ["Persönlichkeitstest", "Imageberatung", "Beauty-Direktion", "Koordination von Kleid und Accessoires", "Begleitung während des gesamten Prozesses"],
+    premiumMainPrice: "Ab 1.500 €",
+    premiumQuote: "Der Wedding Planner gestaltet die Hochzeit. Die Bridal Stylist gestaltet die Präsenz des Brautpaares.",
+    premium1: "Privater Concierge", premium1Desc: "Persönliche Begleitung während des gesamten Prozesses, mit direkter Betreuung und Koordination jedes besonderen Wunsches.",
+    premium2: "Signature Design", premium2Desc: "Ein individuell gestaltetes ästhetisches Erlebnis mit einzigartiger Identität und sorgfältig ausgewählten Details.",
     service1: "Vollständige Planung",
     service1Desc: "Von der Konzeption bis zur Ausführung kümmern wir uns um jedes Detail Ihres großen Tages.",
     service2: "Destination-Hochzeiten",
@@ -354,6 +424,16 @@ const Carousel = memo(({ label }: { label: string }) => {
 });
 // ────────────────────────────────────────────────────────────────────────────
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const Navbar = memo(({ lang, setLang, t }: { lang: Language, setLang: (l: Language) => void, t: any }) => {
   const [isLangOpen, setIsLangOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -398,9 +478,9 @@ const Navbar = memo(({ lang, setLang, t }: { lang: Language, setLang: (l: Langua
                 <Link 
                   key={i} 
                   to={item.path} 
-                  className={`relative hover:text-gold transition-all duration-300 group ${
-                    location.pathname === item.path ? 'text-gold' : ''
-                  }`}
+                  className={`relative transition-all duration-300 group ${
+                    item.premium ? 'text-gold font-medium' : 'hover:text-gold'
+                  } ${location.pathname === item.path ? 'text-gold' : ''}`}
                 >
                   {item.name}
                   <span className={`absolute -bottom-2 left-0 w-0 h-[2px] bg-gold transition-all duration-500 group-hover:w-full ${
@@ -559,34 +639,66 @@ const Home = memo(({ t }: { t: any }) => (
           <h3 className="font-serif text-5xl md:text-6xl font-light editorial-title italic-serif">{t.servicesTitle}</h3>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-10">
           {[
-            { title: t.service1, desc: t.service1Desc, img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop" },
-            { title: t.service2, desc: t.service2Desc, img: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" },
-            { title: t.service3, desc: t.service3Desc, img: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=2070&auto=format&fit=crop" }
-          ].map((service, i) => (
-            <motion.div 
-              key={i}
+            {
+              title: t.services,
+              desc: t.servicesPageIntro,
+              img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+              path: "/servicios"
+            },
+            {
+              title: t.premiumTitle,
+              desc: t.premiumIntro,
+              img: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop",
+              path: "/premium",
+              premium: true
+            },
+            {
+              title: t.portfolio,
+              desc: t.portfolioTitle,
+              img: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop",
+              path: "/portfolio"
+            }
+          ].map((item, i) => (
+            <motion.div
+              key={item.path}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.2, duration: 1 }}
               viewport={{ once: true }}
               className="group text-center"
             >
-              <div className="aspect-[3/4] overflow-hidden mb-12 shadow-2xl transition-all duration-1000">
-                <img 
-                  src={service.img} 
-                  alt={service.title} 
-                  className="w-full h-full object-cover premium-image"
-                  referrerPolicy="no-referrer"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <h4 className="font-serif text-2xl mb-6 luxury-text italic-serif">{service.title}</h4>
-              <p className="text-zinc-400 font-light leading-relaxed text-sm max-w-[280px] mx-auto">
-                {service.desc}
-              </p>
+              <Link to={item.path} className="block">
+                <div className={`relative aspect-[3/4] overflow-hidden mb-10 shadow-2xl transition-all duration-700 ${item.premium ? 'ring-1 ring-gold/40' : ''}`}>
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="w-full h-full object-cover premium-image transition-transform duration-1000 group-hover:scale-105"
+                    referrerPolicy="no-referrer"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/25 transition-all duration-700" />
+                  {item.premium && (
+                    <span className="absolute top-6 right-6 bg-gold text-white px-4 py-2 text-[8px] uppercase tracking-[0.35em]">
+                      Premium
+                    </span>
+                  )}
+                  <div className="absolute bottom-0 left-0 right-0 p-8 text-left bg-gradient-to-t from-black/70 via-black/20 to-transparent">
+                    <span className="text-[9px] uppercase tracking-[0.5em] text-gold">0{i + 1}</span>
+                  </div>
+                </div>
+                <h4 className={`font-serif text-3xl mb-5 luxury-text italic-serif transition-colors duration-500 ${item.premium ? 'text-gold' : 'group-hover:text-gold'}`}>
+                  {item.title}
+                </h4>
+                <p className="text-zinc-400 font-light leading-relaxed text-sm max-w-[300px] mx-auto">
+                  {item.desc}
+                </p>
+                <span className="inline-block mt-8 text-[9px] uppercase tracking-[0.5em] text-zinc-400 group-hover:text-gold transition-colors duration-500">
+                  {t.viewDetail} →
+                </span>
+              </Link>
             </motion.div>
           ))}
         </div>
@@ -654,26 +766,24 @@ const Portfolio = memo(({ t }: { t: any }) => {
   const [activeCat, setActiveCat] = useState<string>('todos');
   const [activeSub, setActiveSub] = useState<string>('todo');
 
-  const mainFilters = useMemo(() => [
-    { key: 'todos',    label: { ES: 'Todos',         EN: 'All',         FR: 'Tous',    IT: 'Tutti',    DE: 'Alle'    } },
-    { key: 'playa',    label: { ES: 'Playa',          EN: 'Beach',       FR: 'Plage',   IT: 'Spiaggia', DE: 'Strand'  } },
-    { key: 'castillo', label: { ES: 'Castillo',       EN: 'Castle',      FR: 'Château', IT: 'Castello', DE: 'Schloss' } },
-    { key: 'campo',    label: { ES: 'Campo & Viñedo', EN: 'Countryside', FR: 'Campagne',IT: 'Campagna', DE: 'Landgut' } },
-  ], []);
+  const mainFilters = [
+    { key: 'todos', label: 'Todos' },
+    { key: 'playa', label: 'Playa' },
+    { key: 'castillo', label: 'Castillo' },
+    { key: 'campo', label: 'Campo & Viñedo' },
+  ];
 
-  const subFilters = useMemo(() => [
-    { key: 'todo',       label: { ES: 'Todo',       EN: 'All',     FR: 'Tout',       IT: 'Tutto',       DE: 'Alle'       } },
-    { key: 'decoracion', label: { ES: 'Decoración', EN: 'Décor',   FR: 'Décoration', IT: 'Decorazione', DE: 'Dekoration' } },
-    { key: 'paisaje',    label: { ES: 'Paisajes',   EN: 'Scenery', FR: 'Paysages',   IT: 'Paesaggi',    DE: 'Landschaft' } },
-    { key: 'novios',     label: { ES: 'Novios',     EN: 'Couple',  FR: 'Mariés',     IT: 'Sposi',       DE: 'Brautpaar'  } },
-    { key: 'detalles',   label: { ES: 'Detalles',   EN: 'Details', FR: 'Détails',    IT: 'Dettagli',    DE: 'Details'    } },
-  ], []);
+  const subFilters = [
+    { key: 'todo', label: 'Todo' },
+    { key: 'decoracion', label: 'Decoración' },
+    { key: 'paisaje', label: 'Paisajes' },
+    { key: 'novios', label: 'Novios' },
+    { key: 'detalles', label: 'Detalles' },
+  ];
 
   const filtered = useMemo(() => portfolioImages.filter(item => {
-    const catMatch = activeCat === 'todos' || 
-      (Array.isArray(item.cat) ? item.cat.includes(activeCat) : item.cat === activeCat);
-    const subMatch = activeSub === 'todo'  || 
-      (Array.isArray(item.sub) ? item.sub.includes(activeSub) : item.sub === activeSub);
+    const catMatch = activeCat === 'todos' || item.cat === activeCat;
+    const subMatch = activeSub === 'todo' || item.sub === activeSub;
     return catMatch && subMatch;
   }), [activeCat, activeSub]);
 
@@ -702,7 +812,7 @@ const Portfolio = memo(({ t }: { t: any }) => {
                     : 'bg-white text-zinc-400 border-zinc-200 hover:border-gold hover:text-zinc-700'
                 }`}
               >
-                {f.label['ES']}
+                {f.label}
               </button>
             ))}
           </div>
@@ -727,7 +837,7 @@ const Portfolio = memo(({ t }: { t: any }) => {
                           : 'bg-transparent text-zinc-400 border-gold/40 hover:bg-gold hover:text-white hover:border-gold'
                       }`}
                     >
-                      {s.label['ES']}
+                      {s.label}
                     </button>
                   ))}
                 </div>
@@ -760,6 +870,159 @@ const Portfolio = memo(({ t }: { t: any }) => {
                 </motion.div>
               ))}
             </AnimatePresence>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+});
+
+const Services = memo(({ t }: { t: any }) => (
+  <div className="page-transition pt-32 bg-champagne min-h-screen">
+    <section className="py-32 md:py-40 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-20">
+          <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block font-medium">{t.services}</span>
+          <h3 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">{t.servicesTitle}</h3>
+          <p className="max-w-2xl mx-auto mt-10 text-zinc-500 font-light leading-relaxed text-lg">{t.servicesPageIntro}</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+          {[
+            { title: t.service1, desc: t.service1Desc, img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop" },
+            { title: t.service2, desc: t.service2Desc, img: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" },
+            { title: t.service3, desc: t.service3Desc, img: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=2070&auto=format&fit=crop" }
+          ].map((service, i) => (
+            <motion.article key={i} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.15, duration: 0.8 }} viewport={{ once: true }} className="bg-white group overflow-hidden shadow-xl">
+              <div className="aspect-[4/5] overflow-hidden">
+                <img src={service.img} alt={service.title} className="w-full h-full object-cover premium-image transition-transform duration-1000 group-hover:scale-105" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              </div>
+              <div className="p-10 text-center">
+                <span className="text-[9px] uppercase tracking-[0.5em] text-gold">0{i + 1}</span>
+                <h4 className="font-serif text-2xl mt-4 mb-5 italic-serif luxury-text">{service.title}</h4>
+                <p className="text-zinc-400 font-light leading-relaxed text-sm">{service.desc}</p>
+              </div>
+            </motion.article>
+          ))}
+        </div>
+        <div className="text-center mt-20">
+          <Link to="/contacto" className="inline-block bg-ink text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-gold transition-all duration-700 luxury-text shadow-2xl">{t.contact}</Link>
+        </div>
+      </div>
+    </section>
+  </div>
+));
+
+const Premium = memo(({ t }: { t: any }) => {
+  // Cuando tengas la página externa del servicio, sustituye este enlace.
+  const bridalStylingUrl = "#";
+
+  return (
+    <div className="page-transition pt-32 bg-champagne min-h-screen text-zinc-900">
+      {/* Cabecera general de Servicios Premium */}
+      <section className="relative overflow-hidden py-28 md:py-40 px-6 bg-ink text-white">
+        <div className="absolute inset-0 opacity-35">
+          <img
+            src={img('novios1.jpg')}
+            alt="Experiencias Premium"
+            className="w-full h-full object-cover"
+            loading="eager"
+          />
+        </div>
+        <div className="absolute inset-0 bg-ink/55" />
+
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
+          <span className="text-[10px] uppercase tracking-[0.9em] text-gold mb-8 block">
+            {t.premiumLabel}
+          </span>
+          <h1 className="font-serif text-5xl md:text-7xl font-light italic-serif editorial-title mb-8">
+            {t.premiumTitle}
+          </h1>
+          <p className="max-w-2xl mx-auto text-white/75 font-light leading-relaxed text-lg md:text-xl">
+            {t.premiumIntro}
+          </p>
+        </div>
+      </section>
+
+      {/* Servicios Premium disponibles */}
+      <section className="py-24 md:py-32 px-6 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block">
+              {t.premiumLabel}
+            </span>
+            <h2 className="font-serif text-4xl md:text-6xl font-light italic-serif editorial-title">
+              {t.premiumTitle}
+            </h2>
+          </div>
+
+          <motion.article
+            initial={{ opacity: 0, y: 35 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="grid grid-cols-1 lg:grid-cols-2 bg-champagne shadow-2xl overflow-hidden border border-gold/10"
+          >
+            <div className="overflow-hidden min-h-[420px] lg:min-h-[620px]">
+              <img
+                src={img('bridal-styling.png')}
+                alt={t.premiumMainTitle}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-[1400ms]"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="p-10 md:p-16 lg:p-20 flex flex-col justify-center">
+              <span className="text-[9px] uppercase tracking-[0.6em] text-gold mb-6">
+                01 · Experiencia Premium
+              </span>
+
+              <h3 className="font-serif text-4xl md:text-5xl font-light italic-serif mb-5">
+                {t.premiumMainTitle}
+              </h3>
+
+              <p className="font-serif italic text-xl text-zinc-600 mb-7">
+                {t.premiumMainSubtitle}
+              </p>
+
+              <p className="text-zinc-500 font-light leading-relaxed text-base md:text-lg mb-8">
+                {t.premiumMainDesc}
+              </p>
+
+              <div className="border-t border-gold/20 pt-7 mb-9">
+                <h4 className="text-[10px] uppercase tracking-[0.5em] text-gold mb-5">
+                  {t.premiumIncludesTitle}
+                </h4>
+                <ul className="space-y-3">
+                  {t.premiumIncludes.map((item: string) => (
+                    <li key={item} className="flex gap-3 text-sm text-zinc-600 font-light">
+                      <span className="text-gold">✦</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href={bridalStylingUrl}
+                  className="inline-flex items-center justify-center bg-ink text-white px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold transition-all duration-700 shadow-xl"
+                >
+                  Descubrir experiencia
+                </a>
+                <Link
+                  to="/contacto"
+                  className="inline-flex items-center justify-center border border-gold/30 text-zinc-700 px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold hover:text-white transition-all duration-700"
+                >
+                  Si estás interesado, contáctanos
+                </Link>
+              </div>
+            </div>
+          </motion.article>
+
+          <div className="max-w-3xl mx-auto text-center mt-20">
+            <p className="font-serif text-2xl md:text-3xl italic-serif leading-relaxed text-zinc-700">
+              “{t.premiumQuote}”
+            </p>
           </div>
         </div>
       </section>
@@ -846,13 +1109,16 @@ export default function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-white text-zinc-900 selection:bg-gold/20">
         <Navbar lang={lang} setLang={setLang} t={t} />
         
         <Routes>
           <Route path="/" element={<Home t={t} />} />
           <Route path="/sobre-mi" element={<About t={t} />} />
+          <Route path="/servicios" element={<Services t={t} />} />
           <Route path="/portfolio" element={<Portfolio t={t} />} />
+          <Route path="/premium" element={<Premium t={t} />} />
           <Route path="/contacto" element={<Contact t={t} />} />
         </Routes>
 
