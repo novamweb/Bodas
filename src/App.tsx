@@ -566,7 +566,7 @@ const Footer = memo(({ t }: { t: any }) => (
         <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-12 mb-20 text-[10px] uppercase tracking-[0.3em] font-light text-zinc-500">
           <div className="flex flex-col gap-4">
             <span className="text-zinc-900 font-medium">Contact</span>
-            <p>info@elegancemariages.com</p>
+            <p>info@unasimpleboda.com</p>
             <p>+34 600 000 000</p>
           </div>
           <div className="flex flex-col gap-4">
@@ -877,40 +877,72 @@ const Portfolio = memo(({ t }: { t: any }) => {
   );
 });
 
-const Services = memo(({ t }: { t: any }) => (
-  <div className="page-transition pt-32 bg-champagne min-h-screen">
-    <section className="py-32 md:py-40 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-20">
-          <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block font-medium">{t.services}</span>
-          <h3 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">{t.servicesTitle}</h3>
-          <p className="max-w-2xl mx-auto mt-10 text-zinc-500 font-light leading-relaxed text-lg">{t.servicesPageIntro}</p>
+const Services = memo(({ t }: { t: any }) => {
+  const services = [
+    { number: "01", title: "Organización de principio a fin", desc: "Acompañamiento integral para dar forma a vuestro sueño desde el inicio, con búsqueda, gestión y asesoramiento de proveedores, visitas a espacios y planificación de cada etapa.", img: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" },
+    { number: "02", title: "Coordinación del día de la boda", desc: "Coordinación integral del Día B, gestionando proveedores, montajes, entregas, sorpresas y momentos especiales para que vosotros podáis disfrutar de vuestra celebración.", img: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" },
+    { number: "03", title: "Organización a vuestra medida", desc: "Un servicio pensado para parejas que ya tienen espacio y varios proveedores contratados, pero necesitan acompañamiento, planificación y coordinación para continuar con seguridad.", img: "https://images.unsplash.com/photo-1507504031003-b417219a0fde?q=80&w=2070&auto=format&fit=crop" },
+    { number: "04", title: "Decoración de bodas y espacios", desc: "Diseño y cuidado de cada rincón para que la decoración cuente vuestra historia y cree una atmósfera única, coherente y especial para vuestros invitados.", img: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2070&auto=format&fit=crop" },
+    { number: "05", title: "Tartas nupciales", desc: "Tartas artesanales elaboradas con ingredientes de calidad y diseños personalizados que se adaptan al estilo de vuestra boda, desde propuestas clásicas hasta opciones más modernas.", img: "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=2070&auto=format&fit=crop" },
+    { number: "06", title: "Events Kids", desc: "Espacios y celebraciones para los más pequeños durante bautizos, comuniones, cumpleaños y bodas, con mesas dulces, decoración y actividades pensadas para disfrutar.", img: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=2070&auto=format&fit=crop" }
+  ];
+
+  const providerGroups = [
+    "Fotógrafos", "Localizaciones", "Maestros de ceremonias", "Decoración", "Floristería",
+    "Tramitación de expediente", "Invitaciones y papelería", "Catering", "Pastelerías",
+    "Hoteles y transporte", "Música", "Entretenimiento y animación infantil", "Joyería",
+    "Peluquería y maquillaje", "Spa y tratamientos de belleza", "Diseñadores y atelier de vestidos de novia",
+    "Regalitos y detalles", "Despedidas de solteros", "Agencias de viajes de novios"
+  ];
+
+  return (
+    <div className="page-transition pt-32 bg-champagne min-h-screen">
+      <section className="py-28 md:py-40 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-20">
+            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block font-medium">{t.services}</span>
+            <h1 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">{t.servicesTitle}</h1>
+            <p className="max-w-2xl mx-auto mt-10 text-zinc-500 font-light leading-relaxed text-lg">{t.servicesPageIntro}</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+            {services.map((service, i) => (
+              <motion.article key={service.number} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.08, duration: 0.8 }} viewport={{ once: true }} className="bg-white group overflow-hidden shadow-xl">
+                <div className="aspect-[4/5] overflow-hidden">
+                  <img src={service.img} alt={service.title} className="w-full h-full object-cover premium-image transition-transform duration-1000 group-hover:scale-105" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+                </div>
+                <div className="p-9 md:p-10">
+                  <span className="text-[9px] uppercase tracking-[0.5em] text-gold">{service.number}</span>
+                  <h2 className="font-serif text-2xl md:text-3xl mt-4 mb-5 italic-serif luxury-text">{service.title}</h2>
+                  <p className="text-zinc-500 font-light leading-relaxed text-sm">{service.desc}</p>
+                </div>
+              </motion.article>
+            ))}
+          </div>
+
+          <div className="mt-24 md:mt-32 bg-white px-8 py-12 md:px-16 md:py-16 shadow-xl">
+            <div className="text-center mb-12">
+              <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-5 block">Proveedores</span>
+              <h2 className="font-serif text-4xl md:text-5xl font-light italic-serif editorial-title">Una red de confianza</h2>
+              <p className="max-w-2xl mx-auto mt-6 text-zinc-500 font-light leading-relaxed">Contamos con un abanico de proveedores de confianza que se adaptan a vuestras necesidades, estilo y presupuesto.</p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-5">
+              {providerGroups.map((provider) => (
+                <div key={provider} className="flex items-center gap-3 text-sm text-zinc-500 font-light"><span className="text-gold">✦</span><span>{provider}</span></div>
+              ))}
+            </div>
+          </div>
+
+          <div className="text-center mt-20">
+            <p className="font-serif text-2xl md:text-3xl italic-serif text-zinc-700 mb-10">Cada detalle cuenta. Vosotros vivís el momento; nosotros cuidamos el camino.</p>
+            <Link to="/contacto" className="inline-block bg-ink text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-gold transition-all duration-700 luxury-text shadow-2xl">{t.contact}</Link>
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-          {[
-            { title: t.service1, desc: t.service1Desc, img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop" },
-            { title: t.service2, desc: t.service2Desc, img: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" },
-            { title: t.service3, desc: t.service3Desc, img: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=2070&auto=format&fit=crop" }
-          ].map((service, i) => (
-            <motion.article key={i} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.15, duration: 0.8 }} viewport={{ once: true }} className="bg-white group overflow-hidden shadow-xl">
-              <div className="aspect-[4/5] overflow-hidden">
-                <img src={service.img} alt={service.title} className="w-full h-full object-cover premium-image transition-transform duration-1000 group-hover:scale-105" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
-              </div>
-              <div className="p-10 text-center">
-                <span className="text-[9px] uppercase tracking-[0.5em] text-gold">0{i + 1}</span>
-                <h4 className="font-serif text-2xl mt-4 mb-5 italic-serif luxury-text">{service.title}</h4>
-                <p className="text-zinc-400 font-light leading-relaxed text-sm">{service.desc}</p>
-              </div>
-            </motion.article>
-          ))}
-        </div>
-        <div className="text-center mt-20">
-          <Link to="/contacto" className="inline-block bg-ink text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-gold transition-all duration-700 luxury-text shadow-2xl">{t.contact}</Link>
-        </div>
-      </div>
-    </section>
-  </div>
-));
+      </section>
+    </div>
+  );
+});
+
 
 const Premium = memo(({ t }: { t: any }) => {
   // Cuando tengas la página externa del servicio, sustituye este enlace.
@@ -1033,76 +1065,83 @@ const Premium = memo(({ t }: { t: any }) => {
 const Contact = memo(({ t }: { t: any }) => (
   <div className="page-transition pt-32 bg-champagne min-h-screen">
     <section className="py-40 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-32 items-center">
-        <div>
-          <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-8 block font-medium">{t.contact}</span>
-          <h3 className="font-serif text-5xl md:text-7xl font-light mb-16 editorial-title italic-serif">{t.contactTitle}</h3>
-          <div className="space-y-12">
-            <div className="flex items-center gap-8 group cursor-pointer">
-              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 backdrop-blur-sm rounded-full">
-                <Mail className="w-6 h-6 font-light text-gold" />
-              </div>
-              <div>
-                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">Email</p>
-                <span className="text-sm tracking-[0.2em] uppercase font-light">info@elegancemariages.com</span>
-              </div>
+      <div className="max-w-4xl mx-auto text-center">
+        <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-8 block font-medium">{t.contact}</span>
+        <h3 className="font-serif text-5xl md:text-7xl font-light mb-24 editorial-title italic-serif">{t.contactTitle}</h3>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          {/* Email */}
+          <a href="mailto:info@unasimpleboda.com" className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500 overflow-hidden">
+            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+              <Mail className="w-6 h-6 font-light text-gold" />
             </div>
-            <div className="flex items-center gap-8 group cursor-pointer">
-              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 backdrop-blur-sm rounded-full">
-                <Phone className="w-6 h-6 font-light text-gold" />
-              </div>
-              <div>
-                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">Phone</p>
-                <span className="text-sm tracking-[0.2em] uppercase font-light">+34 600 000 000</span>
-              </div>
+            <div className="text-left min-w-0">
+              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">Email</p>
+              <span className="text-sm tracking-[0.1em] font-light break-all">info@unasimpleboda.com</span>
             </div>
-            <div className="flex items-center gap-8 group cursor-pointer">
-              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 backdrop-blur-sm rounded-full">
-                <MapPin className="w-6 h-6 font-light text-gold" />
-              </div>
-              <div>
-                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">Locations</p>
-                <span className="text-sm tracking-[0.2em] uppercase font-light luxury-text">{t.locations}</span>
-              </div>
+          </a>
+
+          {/* Phone */}
+          <a href="tel:+34600000000" className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500">
+            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+              <Phone className="w-6 h-6 font-light text-gold" />
             </div>
-          </div>
+            <div className="text-left">
+              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">Phone</p>
+              <span className="text-sm tracking-[0.2em] uppercase font-light">+34 600 000 000</span>
+            </div>
+          </a>
+
+          {/* WhatsApp */}
+          <a href="https://wa.me/34600000000" target="_blank" rel="noopener noreferrer" className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500">
+            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+              <svg className="w-6 h-6 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.35A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10zm5.86 14.2c-.25.7-1.45 1.34-2 1.42-.51.08-1.16.11-1.87-.12-.43-.14-.98-.32-1.69-.62-2.97-1.28-4.91-4.26-5.06-4.46-.15-.2-1.21-1.61-1.21-3.07 0-1.46.77-2.18 1.04-2.47.27-.29.6-.36.8-.36.2 0 .4 0 .58.01.19.01.44-.07.68.53.25.6.85 2.08.92 2.23.07.15.12.33.02.53-.1.2-.15.33-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.29.76 1.26 1.63 2.04 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.18 1.38z"/>
+              </svg>
+            </div>
+            <div className="text-left">
+              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">WhatsApp</p>
+              <span className="text-sm tracking-[0.2em] uppercase font-light">Escríbenos</span>
+            </div>
+          </a>
+
+          {/* Instagram */}
+          <a href="https://instagram.com/unasimpleboda" target="_blank" rel="noopener noreferrer" className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500">
+            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+              <svg className="w-6 h-6 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </div>
+            <div className="text-left">
+              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">Instagram</p>
+              <span className="text-sm tracking-[0.2em] uppercase font-light">@unasimpleboda</span>
+            </div>
+          </a>
+
+          {/* Facebook */}
+          <a href="https://facebook.com/elegancemariages" target="_blank" rel="noopener noreferrer" className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500 md:col-span-2">
+            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+              <svg className="w-6 h-6 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 12.06C22 6.505 17.523 2 12 2S2 6.505 2 12.06c0 5.02 3.657 9.184 8.438 9.94v-7.03H7.898v-2.91h2.54V9.845c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.459h-1.26c-1.243 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.91h-2.33V22c4.78-.756 8.438-4.92 8.438-9.94z"/>
+              </svg>
+            </div>
+            <div className="text-left">
+              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">Facebook</p>
+              <span className="text-sm tracking-[0.2em] uppercase font-light">Una Simple Boda</span>
+            </div>
+          </a>
         </div>
-        
-        <motion.form 
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          className="space-y-12 bg-white p-16 rounded-[40px] shadow-[0_40px_100px_-20px_rgba(197,160,89,0.15)] border border-gold/5"
-        >
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="space-y-2">
-              <label className="text-[8px] uppercase tracking-[0.4em] text-gold font-medium ml-1">{t.formName}</label>
-              <input type="text" className="w-full bg-transparent border-b border-zinc-100 py-4 text-sm focus:border-gold outline-none transition-all duration-500 font-light" />
-            </div>
-            <div className="space-y-2">
-              <label className="text-[8px] uppercase tracking-[0.4em] text-gold font-medium ml-1">{t.formEmail}</label>
-              <input type="email" className="w-full bg-transparent border-b border-zinc-100 py-4 text-sm focus:border-gold outline-none transition-all duration-500 font-light" />
-            </div>
-          </div>
-          <div className="space-y-2">
-            <label className="text-[8px] uppercase tracking-[0.4em] text-gold font-medium ml-1">{t.formDate}</label>
-            <input type="text" className="w-full bg-transparent border-b border-zinc-100 py-4 text-sm focus:border-gold outline-none transition-all duration-500 font-light" />
-          </div>
-          <div className="space-y-2">
-            <label className="text-[8px] uppercase tracking-[0.4em] text-gold font-medium ml-1">{t.formMessage}</label>
-            <textarea rows={4} className="w-full bg-transparent border-b border-zinc-100 py-4 text-sm focus:border-gold outline-none transition-all duration-500 font-light resize-none" />
-          </div>
-          <button className="w-full bg-ink text-white px-12 py-6 text-[10px] uppercase tracking-[0.5em] hover:bg-gold transition-all duration-700 luxury-text shadow-2xl shadow-ink/20 group overflow-hidden relative">
-            <span className="relative z-10">{t.formSubmit}</span>
-            <div className="absolute inset-0 bg-gold translate-y-full group-hover:translate-y-0 transition-transform duration-700" />
-          </button>
-        </motion.form>
+
+        <div className="mt-16 flex items-center justify-center gap-3">
+          <MapPin className="w-4 h-4 text-gold" />
+          <span className="text-sm tracking-[0.2em] uppercase font-light luxury-text">{t.locations}</span>
+        </div>
       </div>
     </section>
   </div>
 ));
-
 export default function App() {
   const [lang, setLang] = useState<Language>('ES');
   const t = content[lang];
