@@ -47,7 +47,7 @@ const portfolioImages = [
   { src: img('novios2.jpg'), cat: 'castillo' },
 
   { src: img('p3.png'), cat: 'campo' },
-  { src: img('novios3.jpg'), cat: 'castillo' },
+  
 
   { src: img('5.jpg'), cat: 'castillo' },
   { src: img('pdecora2.png'), cat: 'campo' },
