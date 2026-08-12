@@ -25,39 +25,67 @@ const imgFiles = import.meta.glob<string>('./img/*', {
 const img = (name: string): string => imgFiles[`./img/${name}`] ?? '';
 
 const portfolioImages = [
-  { src: img('decora1.jpg'),    cat: 'campo',    sub: 'decoracion' },
-  { src: img('decora2.jpg'),    cat: 'campo',    sub: 'decoracion' },
-  { src: img('1.jpg'),          cat: 'castillo', sub: 'paisaje' },
-  { src: img('decora3.jpg'),    cat: 'campo',    sub: 'decoracion' },
-  { src: img('1decora.jpg'),    cat: 'castillo', sub: 'decoracion' },
-  { src: img('castillopaisa.jpg'), cat: 'castillo', sub: 'paisaje' },
-  { src: img('2decora.jpg'),    cat: 'castillo', sub: 'decoracion' },
-  { src: img('3decora.jpg'),    cat: 'castillo', sub: 'decoracion' },
-  { src: img('p.png'),          cat: 'campo',    sub: 'novios'     },
-  { src: img('p2.png'),         cat: 'campo',    sub: 'novios'     },
-  { src: img('pdecora.png'),    cat: 'campo',    sub: 'decoracion' },
-  { src: img('novios2.jpg'),    cat: 'castillo', sub: 'novios' },
-  { src: img('3.jpg'),          cat: 'castillo', sub: 'paisaje' },
-  { src: img('p3.png'),         cat: 'campo',    sub: 'novios'     },
-  { src: img('pdecora2.png'),   cat: 'campo',    sub: 'decoracion' },
-  { src: img('novios3.jpg'),    cat: 'castillo', sub: 'novios' },
-  { src: img('castillodecora.jpg'), cat: 'castillo', sub: 'paisaje' },
-  { src: img('pdetalles.png'),  cat: 'campo',    sub: 'detalles'   },
-  { src: img('2.jpg'),          cat: 'castillo', sub: 'paisaje' },
-  { src: img('pdetalles2.png'), cat: 'campo',    sub: 'detalles'   },
-  { src: img('catillopaisa2.jpg'), cat: 'castillo', sub: 'paisaje' },
-  { src: img('pdetalles3.png'), cat: 'campo',    sub: 'detalles'   },
-  { src: img('novioscatillo.jpg'), cat: 'castillo', sub: 'novios' },
-  { src: img('detalles1.jpg'),  cat: 'campo',    sub: 'detalles'   },
-  { src: img('tarta2.jpg'),     cat: 'campo',    sub: 'detalles' },
-  { src: img('catillopaisa3.jpg'), cat: 'castillo', sub: 'paisaje' },
-  { src: img('decora5.jpg'),    cat: 'campo',    sub: 'decoracion' },
-  { src: img('detalles6.jpg'),  cat: 'campo',    sub: 'paisaje' },
-  { src: img('catillopaisa1.jpg'), cat: 'castillo', sub: 'paisaje' },
-  { src: img('pdetalle4.png'),  cat: 'campo',    sub: 'detalles' },
-  { src: img('novios1.jpg'),    cat: 'castillo', sub: 'novios' },
-  { src: img('tarta.jpg'),      cat: 'campo',    sub: 'detalles' },
-  { src: img('4.jpg'),          cat: 'castillo', sub: 'paisaje' },
+  { src: img('decora1.jpg'), cat: 'campo' },
+  { src: img('1.1.jpg'), cat: 'castillo' },
+
+  { src: img('decora2.jpg'), cat: 'campo' },
+  { src: img('1.jpg'), cat: 'castillo' },
+
+  { src: img('decora3.jpg'), cat: 'campo' },
+  { src: img('2.1.jpg'), cat: 'castillo' },
+
+  { src: img('1decora.jpg'), cat: 'castillo' },
+  { src: img('p.png'), cat: 'campo' },
+
+  { src: img('3.1.jpg'), cat: 'castillo' },
+  { src: img('p2.png'), cat: 'campo' },
+
+  { src: img('castillopaisa.jpg'), cat: 'castillo' },
+  { src: img('pdecora.png'), cat: 'campo' },
+
+  { src: img('4.1.jpg'), cat: 'castillo' },
+  { src: img('novios2.jpg'), cat: 'castillo' },
+
+  { src: img('p3.png'), cat: 'campo' },
+  { src: img('novios3.jpg'), cat: 'castillo' },
+
+  { src: img('5.jpg'), cat: 'castillo' },
+  { src: img('pdecora2.png'), cat: 'campo' },
+
+  { src: img('castillodecora.jpg'), cat: 'castillo' },
+  { src: img('pdetalles.png'), cat: 'campo' },
+
+  { src: img('6.jpg'), cat: 'castillo' },
+  { src: img('detalles1.jpg'), cat: 'campo' },
+
+  { src: img('tarta2.jpg'), cat: 'campo' },
+  { src: img('7.jpg'), cat: 'castillo' },
+
+  { src: img('catillopaisa3.jpg'), cat: 'castillo' },
+  { src: img('decora5.jpg'), cat: 'campo' },
+
+  { src: img('8.jpg'), cat: 'castillo' },
+  { src: img('detalles6.jpg'), cat: 'campo' },
+
+  { src: img('catillopaisa1.jpg'), cat: 'castillo' },
+  { src: img('9.jpg'), cat: 'castillo' },
+
+  { src: img('pdetalle4.png'), cat: 'campo' },
+  { src: img('novios1.jpg'), cat: 'castillo' },
+
+  { src: img('10.jpg'), cat: 'castillo' },
+  { src: img('tarta.jpg'), cat: 'campo' },
+
+  { src: img('2.jpg'), cat: 'castillo' },
+  { src: img('3.jpg'), cat: 'castillo' },
+
+  { src: img('pdetalles2.png'), cat: 'campo' },
+  { src: img('catillopaisa2.jpg'), cat: 'castillo' },
+
+  { src: img('pdetalles3.png'), cat: 'campo' },
+  { src: img('novioscatillo.jpg'), cat: 'castillo' },
+
+  { src: img('4.jpg'), cat: 'castillo' },
 ];
 
 // Fotos seleccionadas para el carrusel (las más variadas y representativas)
@@ -104,7 +132,16 @@ const content = {
     premiumIncludesTitle: "Incluye",
     premiumIncludes: ["Test de personalidad", "Asesoramiento de imagen", "Dirección Beauty", "Coordinación de vestido y complementos", "Acompañamiento durante el proceso"],
     premiumMainPrice: "Desde 1.500 €",
-    premiumQuote: "La Wedding Planner diseña la boda. La Bridal Stylist diseña la presencia de los novios.",
+    
+    premiumCeremonyTitle: "Maestra de Ceremonias",
+    premiumCeremonySubtitle: "Una ceremonia que habla de vosotros, no se olvida.",
+    premiumCeremonyWhatTitle: "Qué es una Maestra de Ceremonias",
+    premiumCeremonyWhat: "Una Maestra de Ceremonias no solo conduce un “sí, quiero”. Cuenta la historia que os ha llevado hasta él. Es la persona que crea, escribe y guía la ceremonia, convirtiéndola en un momento único y personal para cada pareja.",
+    premiumCeremonyWorkTitle: "El trabajo de la Maestra de Ceremonias",
+    premiumCeremonyWork: "Su trabajo va mucho más allá de hablar delante de los invitados. Se encarga de dar forma al relato que ofrecen, estructura cada parte de la ceremonia, coordina las intervenciones y conduce todo con naturalidad, emoción y elegancia. Marcándolo dentro de un tiempo y permitiendo que pareja y asistentes vivan y sientan la historia con sentimiento.",
+    premiumCeremonyWhoTitle: "Quién es Raquel Rodríguez",
+    premiumCeremonyWho: "Fundadora de La Novia de los Labios Rojos, es wedding planner y maestra de ceremonias. Ella entiende las bodas como una experiencia que debe sentirse, no simplemente organizarse. La apasiona contar historias y encontrar la emoción que existe detrás de cada pareja para convertirla en palabras. Crea ceremonias con personalidad, alejadas de los discursos impersonales y de los textos vacíos. Cada ceremonia empieza escuchándoos y termina convirtiéndose en un momento que habla de vosotros.",
+    premiumCeremonyQuote: "Porque una ceremonia que habla de vosotros, no se olvida.",
     premium1: "Concierge Privado", premium1Desc: "Acompañamiento personalizado durante todo el proceso, con atención directa y coordinación de cada necesidad especial.",
     premium2: "Diseño Signature", premium2Desc: "Una experiencia estética creada desde cero, con una identidad única y una selección cuidada de cada detalle.",
     service1: "Planificación Integral",
@@ -156,6 +193,15 @@ const content = {
     premiumIncludes: ["Personality test", "Image consulting", "Beauty direction", "Dress and accessories coordination", "Support throughout the process"],
     premiumMainPrice: "From €1,500",
     premiumQuote: "The Wedding Planner designs the wedding. The Bridal Stylist designs the couple's presence.",
+    premiumCeremonyTitle: "Ceremony Master",
+    premiumCeremonySubtitle: "A ceremony that speaks about you is never forgotten.",
+    premiumCeremonyWhatTitle: "What is a Ceremony Master?",
+    premiumCeremonyWhat: "A Ceremony Master does not simply lead the “I do”. They tell the story that brought you there. They are the person who creates, writes and guides the ceremony, turning it into a unique and personal moment for each couple.",
+    premiumCeremonyWorkTitle: "The work of the Ceremony Master",
+    premiumCeremonyWork: "Their work goes far beyond speaking in front of guests. They shape the story, structure every part of the ceremony, coordinate the interventions and guide everything with naturalness, emotion and elegance, allowing the couple and their guests to truly live and feel the story.",
+    premiumCeremonyWhoTitle: "Who is Raquel Rodríguez",
+    premiumCeremonyWho: "Founder of La Novia de los Labios Rojos, she is a wedding planner and ceremony master. She understands weddings as an experience that must be felt, not simply organized. She is passionate about telling stories and finding the emotion behind each couple to turn it into words. She creates personal ceremonies, far from impersonal speeches and empty texts. Every ceremony begins by listening to you and ends as a moment that speaks about you.",
+    premiumCeremonyQuote: "Because a ceremony that speaks about you is never forgotten.",
     premium1: "Private Concierge", premium1Desc: "Personalized support throughout the entire process, with direct attention and coordination of every special request.",
     premium2: "Signature Design", premium2Desc: "A bespoke aesthetic experience created from scratch, with a unique identity and carefully selected details.",
     service1: "Full Planning",
@@ -207,6 +253,15 @@ const content = {
     premiumIncludes: ["Test de personnalité", "Conseil en image", "Direction Beauty", "Coordination de la robe et des accessoires", "Accompagnement tout au long du processus"],
     premiumMainPrice: "À partir de 1 500 €",
     premiumQuote: "La Wedding Planner imagine le mariage. La Bridal Stylist imagine la présence des mariés.",
+    premiumCeremonyTitle: "Maîtresse de Cérémonie",
+    premiumCeremonySubtitle: "Une cérémonie qui parle de vous ne s'oublie pas.",
+    premiumCeremonyWhatTitle: "Qu'est-ce qu'une Maîtresse de Cérémonie ?",
+    premiumCeremonyWhat: "Une Maîtresse de Cérémonie ne se contente pas de conduire le “oui, je le veux”. Elle raconte l'histoire qui vous a menés jusqu'à cet instant. Elle crée, écrit et guide la cérémonie pour en faire un moment unique et personnel pour chaque couple.",
+    premiumCeremonyWorkTitle: "Le travail de la Maîtresse de Cérémonie",
+    premiumCeremonyWork: "Son travail va bien au-delà de parler devant les invités. Elle donne forme au récit, structure chaque partie de la cérémonie, coordonne les interventions et guide l'ensemble avec naturel, émotion et élégance, afin que les mariés et leurs invités vivent et ressentent pleinement leur histoire.",
+    premiumCeremonyWhoTitle: "Qui est Raquel Rodríguez",
+    premiumCeremonyWho: "Fondatrice de La Novia de los Labios Rojos, elle est wedding planner et maîtresse de cérémonie. Elle considère le mariage comme une expérience qui doit être vécue, et non simplement organisée. Passionnée par les histoires, elle cherche l'émotion qui se cache derrière chaque couple pour la transformer en mots. Elle crée des cérémonies personnelles, loin des discours impersonnels et des textes vides. Chaque cérémonie commence par vous écouter et se termine par un moment qui parle de vous.",
+    premiumCeremonyQuote: "Parce qu'une cérémonie qui parle de vous ne s'oublie pas.",
     premium1: "Conciergerie Privée", premium1Desc: "Un accompagnement personnalisé tout au long du processus, avec une attention directe et la coordination de chaque demande spéciale.",
     premium2: "Design Signature", premium2Desc: "Une expérience esthétique créée sur mesure, avec une identité unique et une sélection minutieuse de chaque détail.",
     service1: "Planification Complète",
@@ -258,6 +313,15 @@ const content = {
     premiumIncludes: ["Test della personalità", "Consulenza d'immagine", "Direzione Beauty", "Coordinamento abito e accessori", "Accompagnamento durante il percorso"],
     premiumMainPrice: "A partire da 1.500 €",
     premiumQuote: "La Wedding Planner progetta il matrimonio. La Bridal Stylist progetta la presenza degli sposi.",
+    premiumCeremonyTitle: "Maestra di Cerimonie",
+    premiumCeremonySubtitle: "Una cerimonia che parla di voi non si dimentica.",
+    premiumCeremonyWhatTitle: "Cos'è una Maestra di Cerimonie?",
+    premiumCeremonyWhat: "Una Maestra di Cerimonie non si limita a guidare il “sì, lo voglio”. Racconta la storia che vi ha portati fino a quel momento. È la persona che crea, scrive e guida la cerimonia, trasformandola in un momento unico e personale per ogni coppia.",
+    premiumCeremonyWorkTitle: "Il lavoro della Maestra di Cerimonie",
+    premiumCeremonyWork: "Il suo lavoro va ben oltre il parlare davanti agli invitati. Dà forma al racconto, struttura ogni parte della cerimonia, coordina gli interventi e guida tutto con naturalezza, emozione ed eleganza, permettendo agli sposi e agli invitati di vivere e sentire davvero la loro storia.",
+    premiumCeremonyWhoTitle: "Chi è Raquel Rodríguez",
+    premiumCeremonyWho: "Fondatrice de La Novia de los Labios Rojos, è wedding planner e maestra di cerimonie. Considera il matrimonio un'esperienza che deve essere vissuta, non semplicemente organizzata. Ama raccontare storie e trovare l'emozione che si cela dietro ogni coppia per trasformarla in parole. Crea cerimonie personali, lontane dai discorsi impersonali e dai testi vuoti. Ogni cerimonia inizia ascoltandovi e termina diventando un momento che parla di voi.",
+    premiumCeremonyQuote: "Perché una cerimonia che parla di voi non si dimentica.",
     premium1: "Concierge Privato", premium1Desc: "Assistenza personalizzata durante tutto il processo, con attenzione diretta e coordinamento di ogni richiesta speciale.",
     premium2: "Design Signature", premium2Desc: "Un'esperienza estetica creata su misura, con un'identità unica e una selezione accurata di ogni dettaglio.",
     service1: "Pianificazione Completa",
@@ -309,6 +373,15 @@ const content = {
     premiumIncludes: ["Persönlichkeitstest", "Imageberatung", "Beauty-Direktion", "Koordination von Kleid und Accessoires", "Begleitung während des gesamten Prozesses"],
     premiumMainPrice: "Ab 1.500 €",
     premiumQuote: "Der Wedding Planner gestaltet die Hochzeit. Die Bridal Stylist gestaltet die Präsenz des Brautpaares.",
+    premiumCeremonyTitle: "Zeremonienmeisterin",
+    premiumCeremonySubtitle: "Eine Zeremonie, die von Ihnen erzählt, bleibt unvergessen.",
+    premiumCeremonyWhatTitle: "Was ist eine Zeremonienmeisterin?",
+    premiumCeremonyWhat: "Eine Zeremonienmeisterin führt nicht einfach durch das „Ja, ich will“. Sie erzählt die Geschichte, die Sie bis zu diesem Moment geführt hat. Sie gestaltet, schreibt und begleitet die Zeremonie und macht sie zu einem einzigartigen und persönlichen Moment für jedes Paar.",
+    premiumCeremonyWorkTitle: "Die Arbeit der Zeremonienmeisterin",
+    premiumCeremonyWork: "Ihre Arbeit geht weit über das Sprechen vor den Gästen hinaus. Sie gibt der Geschichte Form, strukturiert jeden Teil der Zeremonie, koordiniert die Beiträge und führt alles mit Natürlichkeit, Emotion und Eleganz, damit das Paar und seine Gäste die Geschichte wirklich erleben und fühlen können.",
+    premiumCeremonyWhoTitle: "Wer ist Raquel Rodríguez",
+    premiumCeremonyWho: "Gründerin von La Novia de los Labios Rojos, ist sie Wedding Planner und Zeremonienmeisterin. Sie versteht Hochzeiten als ein Erlebnis, das gefühlt und nicht einfach nur organisiert werden soll. Sie liebt es, Geschichten zu erzählen und die Emotion hinter jedem Paar in Worte zu fassen. Sie gestaltet persönliche Zeremonien, fern von unpersönlichen Reden und leeren Texten. Jede Zeremonie beginnt damit, Ihnen zuzuhören, und endet als ein Moment, der von Ihnen erzählt.",
+    premiumCeremonyQuote: "Denn eine Zeremonie, die von Ihnen erzählt, bleibt unvergessen.",
     premium1: "Privater Concierge", premium1Desc: "Persönliche Begleitung während des gesamten Prozesses, mit direkter Betreuung und Koordination jedes besonderen Wunsches.",
     premium2: "Signature Design", premium2Desc: "Ein individuell gestaltetes ästhetisches Erlebnis mit einzigartiger Identität und sorgfältig ausgewählten Details.",
     service1: "Vollständige Planung",
@@ -764,33 +837,16 @@ const About = memo(({ t }: { t: any }) => (
 
 const Portfolio = memo(({ t }: { t: any }) => {
   const [activeCat, setActiveCat] = useState<string>('todos');
-  const [activeSub, setActiveSub] = useState<string>('todo');
 
   const mainFilters = [
     { key: 'todos', label: 'Todos' },
-    { key: 'playa', label: 'Playa' },
     { key: 'castillo', label: 'Castillo' },
     { key: 'campo', label: 'Campo & Viñedo' },
   ];
 
-  const subFilters = [
-    { key: 'todo', label: 'Todo' },
-    { key: 'decoracion', label: 'Decoración' },
-    { key: 'paisaje', label: 'Paisajes' },
-    { key: 'novios', label: 'Novios' },
-    { key: 'detalles', label: 'Detalles' },
-  ];
-
-  const filtered = useMemo(() => portfolioImages.filter(item => {
-    const catMatch = activeCat === 'todos' || item.cat === activeCat;
-    const subMatch = activeSub === 'todo' || item.sub === activeSub;
-    return catMatch && subMatch;
-  }), [activeCat, activeSub]);
-
-  const handleCat = useCallback((key: string) => {
-    setActiveCat(key);
-    setActiveSub('todo');
-  }, []);
+  const filtered = useMemo(() => portfolioImages.filter(item =>
+    activeCat === 'todos' || item.cat === activeCat
+  ), [activeCat]);
 
   return (
     <div className="page-transition pt-32 bg-champagne">
@@ -801,11 +857,11 @@ const Portfolio = memo(({ t }: { t: any }) => {
             <h3 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">{t.portfolioTitle}</h3>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-3 mb-6">
+          <div className="flex flex-wrap justify-center gap-3 mb-12">
             {mainFilters.map(f => (
               <button
                 key={f.key}
-                onClick={() => handleCat(f.key)}
+                onClick={() => setActiveCat(f.key)}
                 className={`px-8 py-3 text-[10px] uppercase tracking-[0.4em] border transition-all duration-500 ${
                   activeCat === f.key
                     ? 'bg-ink text-gold border-ink'
@@ -817,34 +873,6 @@ const Portfolio = memo(({ t }: { t: any }) => {
             ))}
           </div>
 
-          <AnimatePresence>
-            {activeCat !== 'todos' && (
-              <motion.div
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: 'auto' }}
-                exit={{ opacity: 0, height: 0 }}
-                transition={{ duration: 0.4, ease: 'easeInOut' }}
-                className="overflow-hidden"
-              >
-                <div className="flex flex-wrap justify-center gap-2 mb-10 pt-4">
-                  {subFilters.map(s => (
-                    <button
-                      key={s.key}
-                      onClick={() => setActiveSub(s.key)}
-                      className={`px-6 py-2 text-[9px] uppercase tracking-[0.35em] border transition-all duration-300 ${
-                        activeSub === s.key
-                          ? 'bg-gold text-white border-gold'
-                          : 'bg-transparent text-zinc-400 border-gold/40 hover:bg-gold hover:text-white hover:border-gold'
-                      }`}
-                    >
-                      {s.label}
-                    </button>
-                  ))}
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
-
           <p className="text-center text-[10px] uppercase tracking-[0.3em] text-gold mb-12">
             {filtered.length} {filtered.length === 1 ? 'imagen' : 'imágenes'}
           </p>
@@ -853,7 +881,7 @@ const Portfolio = memo(({ t }: { t: any }) => {
             <AnimatePresence>
               {filtered.map((item, i) => (
                 <motion.div
-                  key={item.src + JSON.stringify(item.cat) + JSON.stringify(item.sub)}
+                  key={item.src + item.cat}
                   initial={{ opacity: 0, scale: 0.97 }}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.97 }}
@@ -879,78 +907,206 @@ const Portfolio = memo(({ t }: { t: any }) => {
 
 const Services = memo(({ t }: { t: any }) => {
   const services = [
-    { number: "01", title: "Organización de principio a fin", desc: "Acompañamiento integral para dar forma a vuestro sueño desde el inicio, con búsqueda, gestión y asesoramiento de proveedores, visitas a espacios y planificación de cada etapa.", img: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" },
-    { number: "02", title: "Coordinación del día de la boda", desc: "Coordinación integral del Día B, gestionando proveedores, montajes, entregas, sorpresas y momentos especiales para que vosotros podáis disfrutar de vuestra celebración.", img: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" },
-    { number: "03", title: "Organización a vuestra medida", desc: "Un servicio pensado para parejas que ya tienen espacio y varios proveedores contratados, pero necesitan acompañamiento, planificación y coordinación para continuar con seguridad.", img: "https://images.unsplash.com/photo-1507504031003-b417219a0fde?q=80&w=2070&auto=format&fit=crop" },
-    { number: "04", title: "Decoración de bodas y espacios", desc: "Diseño y cuidado de cada rincón para que la decoración cuente vuestra historia y cree una atmósfera única, coherente y especial para vuestros invitados.", img: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2070&auto=format&fit=crop" },
-    { number: "05", title: "Tartas nupciales", desc: "Tartas artesanales elaboradas con ingredientes de calidad y diseños personalizados que se adaptan al estilo de vuestra boda, desde propuestas clásicas hasta opciones más modernas.", img: "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=2070&auto=format&fit=crop" },
-    { number: "06", title: "Events Kids", desc: "Espacios y celebraciones para los más pequeños durante bautizos, comuniones, cumpleaños y bodas, con mesas dulces, decoración y actividades pensadas para disfrutar.", img: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=2070&auto=format&fit=crop" }
+    {
+      number: "01",
+      title: "Organización de principio a fin",
+      desc: "Acompañamiento integral para dar forma a vuestro sueño desde el inicio, con búsqueda, gestión y asesoramiento de proveedores, visitas a espacios y planificación de cada etapa.",
+      img: img('decora1.jpg')
+    },
+    {
+      number: "02",
+      title: "Coordinación del día de la boda",
+      desc: "Coordinación integral del Día B, gestionando proveedores, montajes, entregas, sorpresas y momentos especiales para que vosotros podáis disfrutar de vuestra celebración.",
+      img: img('novios2.jpg')
+    },
+    {
+      number: "03",
+      title: "Organización a vuestra medida",
+      desc: "Un servicio pensado para parejas que ya tienen espacio y varios proveedores contratados, pero necesitan acompañamiento, planificación y coordinación para continuar con seguridad.",
+      img: img('3.jpg')
+    },
+    {
+      number: "04",
+      title: "Decoración de bodas y espacios",
+      desc: "Diseño y cuidado de cada rincón para que la decoración cuente vuestra historia y cree una atmósfera única, coherente y especial para vuestros invitados.",
+      img: img('castillodecora.jpg')
+    },
+    {
+      number: "05",
+      title: "Tartas nupciales",
+      desc: "Tartas artesanales elaboradas con ingredientes de calidad y diseños personalizados que se adaptan al estilo de vuestra boda, desde propuestas clásicas hasta opciones más modernas.",
+      img: img('tarta2.jpg')
+    },
+    {
+      number: "06",
+      title: "Events Kids",
+      desc: "Espacios y celebraciones para los más pequeños durante bautizos, comuniones, cumpleaños y bodas, con mesas dulces, decoración y actividades pensadas para disfrutar.",
+      img: img('pdetalles.png')
+    }
   ];
 
   const providerGroups = [
-    "Fotógrafos", "Localizaciones", "Maestros de ceremonias", "Decoración", "Floristería",
-    "Tramitación de expediente", "Invitaciones y papelería", "Catering", "Pastelerías",
-    "Hoteles y transporte", "Música", "Entretenimiento y animación infantil", "Joyería",
-    "Peluquería y maquillaje", "Spa y tratamientos de belleza", "Diseñadores y atelier de vestidos de novia",
-    "Regalitos y detalles", "Despedidas de solteros", "Agencias de viajes de novios"
+    "Fotógrafos",
+    "Localizaciones",
+    "Maestros de ceremonias",
+    "Decoración",
+    "Floristería",
+    "Tramitación de expediente",
+    "Invitaciones y papelería",
+    "Catering",
+    "Pastelerías",
+    "Hoteles y transporte",
+    "Música",
+    "Entretenimiento y animación infantil",
+    "Joyería",
+    "Peluquería y maquillaje",
+    "Spa y tratamientos de belleza",
+    "Diseñadores y atelier de vestidos de novia",
+    "Regalitos y detalles",
+    "Despedidas de solteros",
+    "Agencias de viajes de novios"
   ];
 
   return (
     <div className="page-transition pt-32 bg-champagne min-h-screen">
       <section className="py-28 md:py-40 px-6">
         <div className="max-w-7xl mx-auto">
+
           <div className="text-center mb-20">
-            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block font-medium">{t.services}</span>
-            <h1 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">{t.servicesTitle}</h1>
-            <p className="max-w-2xl mx-auto mt-10 text-zinc-500 font-light leading-relaxed text-lg">{t.servicesPageIntro}</p>
+            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block font-medium">
+              {t.services}
+            </span>
+
+            <h1 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">
+              {t.servicesTitle}
+            </h1>
+
+            <p className="max-w-2xl mx-auto mt-10 text-zinc-500 font-light leading-relaxed text-lg">
+              {t.servicesPageIntro}
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
             {services.map((service, i) => (
-              <motion.article key={service.number} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.08, duration: 0.8 }} viewport={{ once: true }} className="bg-white group overflow-hidden shadow-xl">
+              <motion.article
+                key={service.number}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  delay: i * 0.08,
+                  duration: 0.8
+                }}
+                viewport={{ once: true }}
+                className="bg-white group overflow-hidden shadow-xl"
+              >
+
                 <div className="aspect-[4/5] overflow-hidden">
-                  <img src={service.img} alt={service.title} className="w-full h-full object-cover premium-image transition-transform duration-1000 group-hover:scale-105" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+                  <img
+                    src={service.img}
+                    alt={service.title}
+                    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
+
                 <div className="p-9 md:p-10">
-                  <span className="text-[9px] uppercase tracking-[0.5em] text-gold">{service.number}</span>
-                  <h2 className="font-serif text-2xl md:text-3xl mt-4 mb-5 italic-serif luxury-text">{service.title}</h2>
-                  <p className="text-zinc-500 font-light leading-relaxed text-sm">{service.desc}</p>
+                  <span className="text-[9px] uppercase tracking-[0.5em] text-gold">
+                    {service.number}
+                  </span>
+
+                  <h2 className="font-serif text-2xl md:text-3xl mt-4 mb-5 italic-serif luxury-text">
+                    {service.title}
+                  </h2>
+
+                  <p className="text-zinc-500 font-light leading-relaxed text-sm">
+                    {service.desc}
+                  </p>
                 </div>
+
               </motion.article>
             ))}
           </div>
 
           <div className="mt-24 md:mt-32 bg-white px-8 py-12 md:px-16 md:py-16 shadow-xl">
             <div className="text-center mb-12">
-              <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-5 block">Proveedores</span>
-              <h2 className="font-serif text-4xl md:text-5xl font-light italic-serif editorial-title">Una red de confianza</h2>
-              <p className="max-w-2xl mx-auto mt-6 text-zinc-500 font-light leading-relaxed">Contamos con un abanico de proveedores de confianza que se adaptan a vuestras necesidades, estilo y presupuesto.</p>
+              <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-5 block">
+                Proveedores
+              </span>
+
+              <h2 className="font-serif text-4xl md:text-5xl font-light italic-serif editorial-title">
+                Una red de confianza
+              </h2>
+
+              <p className="max-w-2xl mx-auto mt-6 text-zinc-500 font-light leading-relaxed">
+                Contamos con un abanico de proveedores de confianza que se
+                adaptan a vuestras necesidades, estilo y presupuesto.
+              </p>
             </div>
+
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-5">
               {providerGroups.map((provider) => (
-                <div key={provider} className="flex items-center gap-3 text-sm text-zinc-500 font-light"><span className="text-gold">✦</span><span>{provider}</span></div>
+                <div
+                  key={provider}
+                  className="flex items-center gap-3 text-sm text-zinc-500 font-light"
+                >
+                  <span className="text-gold">✦</span>
+                  <span>{provider}</span>
+                </div>
               ))}
             </div>
           </div>
 
           <div className="text-center mt-20">
-            <p className="font-serif text-2xl md:text-3xl italic-serif text-zinc-700 mb-10">Cada detalle cuenta. Vosotros vivís el momento; nosotros cuidamos el camino.</p>
-            <Link to="/contacto" className="inline-block bg-ink text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-gold transition-all duration-700 luxury-text shadow-2xl">{t.contact}</Link>
+            <p className="font-serif text-2xl md:text-3xl italic-serif text-zinc-700 mb-10">
+              Cada detalle cuenta. Vosotros vivís el momento; nosotros cuidamos el camino.
+            </p>
+
+            <Link
+              to="/contacto"
+              className="inline-block bg-ink text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-gold transition-all duration-700 luxury-text shadow-2xl"
+            >
+              {t.contact}
+            </Link>
           </div>
+
         </div>
       </section>
     </div>
   );
 });
 
-
 const Premium = memo(({ t }: { t: any }) => {
-  // Cuando tengas la página externa del servicio, sustituye este enlace.
   const bridalStylingUrl = "#";
+
+  const premiumServices = [
+    {
+      number: "01",
+      image: img('bridal-styling.png'),
+      title: t.premiumMainTitle,
+      subtitle: t.premiumMainSubtitle,
+      desc: t.premiumMainDesc,
+      includesTitle: t.premiumIncludesTitle,
+      includes: t.premiumIncludes,
+      cta: "Descubrir experiencia",
+      link: bridalStylingUrl,
+    },
+    {
+      number: "02",
+      image: img('novios1.jpg'),
+      title: t.premiumCeremonyTitle,
+      subtitle: t.premiumCeremonySubtitle,
+      desc: t.premiumCeremonyWhat,
+      sections: [
+        { title: t.premiumCeremonyWorkTitle, text: t.premiumCeremonyWork },
+        { title: t.premiumCeremonyWhoTitle, text: t.premiumCeremonyWho },
+      ],
+      quote: t.premiumCeremonyQuote,
+    },
+  ];
 
   return (
     <div className="page-transition pt-32 bg-champagne min-h-screen text-zinc-900">
-      {/* Cabecera general de Servicios Premium */}
       <section className="relative overflow-hidden py-28 md:py-40 px-6 bg-ink text-white">
         <div className="absolute inset-0 opacity-35">
           <img
@@ -975,7 +1131,6 @@ const Premium = memo(({ t }: { t: any }) => {
         </div>
       </section>
 
-      {/* Servicios Premium disponibles */}
       <section className="py-24 md:py-32 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -987,75 +1142,104 @@ const Premium = memo(({ t }: { t: any }) => {
             </h2>
           </div>
 
-          <motion.article
-            initial={{ opacity: 0, y: 35 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="grid grid-cols-1 lg:grid-cols-2 bg-champagne shadow-2xl overflow-hidden border border-gold/10"
-          >
-            <div className="overflow-hidden min-h-[420px] lg:min-h-[620px]">
-              <img
-                src={img('bridal-styling.png')}
-                alt={t.premiumMainTitle}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-[1400ms]"
-                loading="lazy"
-              />
-            </div>
+          <div className="space-y-16 md:space-y-24">
+            {premiumServices.map((service) => (
+              <motion.article
+                key={service.number}
+                initial={{ opacity: 0, y: 35 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8 }}
+                className="grid grid-cols-1 lg:grid-cols-2 bg-champagne shadow-2xl overflow-hidden border border-gold/10"
+              >
+                <div className="overflow-hidden min-h-[420px] lg:min-h-[620px]">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-[1400ms]"
+                    loading="lazy"
+                  />
+                </div>
 
-            <div className="p-10 md:p-16 lg:p-20 flex flex-col justify-center">
-              <span className="text-[9px] uppercase tracking-[0.6em] text-gold mb-6">
-                01 · Experiencia Premium
-              </span>
+                <div className="p-10 md:p-16 lg:p-20 flex flex-col justify-center">
+                  <span className="text-[9px] uppercase tracking-[0.6em] text-gold mb-6">
+                    {service.number} · {t.premiumLabel}
+                  </span>
 
-              <h3 className="font-serif text-4xl md:text-5xl font-light italic-serif mb-5">
-                {t.premiumMainTitle}
-              </h3>
+                  <h3 className="font-serif text-4xl md:text-5xl font-light italic-serif mb-5">
+                    {service.title}
+                  </h3>
 
-              <p className="font-serif italic text-xl text-zinc-600 mb-7">
-                {t.premiumMainSubtitle}
-              </p>
+                  <p className="font-serif italic text-xl text-zinc-600 mb-7">
+                    {service.subtitle}
+                  </p>
 
-              <p className="text-zinc-500 font-light leading-relaxed text-base md:text-lg mb-8">
-                {t.premiumMainDesc}
-              </p>
+                  <p className="text-zinc-500 font-light leading-relaxed text-base md:text-lg mb-8">
+                    {service.desc}
+                  </p>
 
-              <div className="border-t border-gold/20 pt-7 mb-9">
-                <h4 className="text-[10px] uppercase tracking-[0.5em] text-gold mb-5">
-                  {t.premiumIncludesTitle}
-                </h4>
-                <ul className="space-y-3">
-                  {t.premiumIncludes.map((item: string) => (
-                    <li key={item} className="flex gap-3 text-sm text-zinc-600 font-light">
-                      <span className="text-gold">✦</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                  {service.includes && (
+                    <div className="border-t border-gold/20 pt-7 mb-9">
+                      <h4 className="text-[10px] uppercase tracking-[0.5em] text-gold mb-5">
+                        {service.includesTitle}
+                      </h4>
+                      <ul className="space-y-3">
+                        {service.includes.map((item: string) => (
+                          <li key={item} className="flex gap-3 text-sm text-zinc-600 font-light">
+                            <span className="text-gold">✦</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
 
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href={bridalStylingUrl}
-                  className="inline-flex items-center justify-center bg-ink text-white px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold transition-all duration-700 shadow-xl"
-                >
-                  Descubrir experiencia
-                </a>
-                <Link
-                  to="/contacto"
-                  className="inline-flex items-center justify-center border border-gold/30 text-zinc-700 px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold hover:text-white transition-all duration-700"
-                >
-                  Si estás interesado, contáctanos
-                </Link>
-              </div>
-            </div>
-          </motion.article>
+                  {service.sections && (
+                    <div className="space-y-7 mb-9">
+                      {service.sections.map((section: any, index: number) => (
+                        <div
+                          key={`${service.number}-${index}`}
+                          className="border-t border-gold/20 pt-6"
+                        >
+                          <h4 className="text-[10px] uppercase tracking-[0.45em] text-gold mb-4">
+                            {section.title}
+                          </h4>
+                          <p className="text-zinc-500 font-light leading-relaxed text-sm md:text-base">
+                            {section.text}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
 
-          <div className="max-w-3xl mx-auto text-center mt-20">
-            <p className="font-serif text-2xl md:text-3xl italic-serif leading-relaxed text-zinc-700">
-              “{t.premiumQuote}”
-            </p>
+                  {service.quote && (
+                    <p className="font-serif text-xl italic-serif leading-relaxed text-zinc-700 border-l-2 border-gold pl-6 mb-9">
+                      “{service.quote}”
+                    </p>
+                  )}
+
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    {service.link && (
+                      <a
+                        href={service.link}
+                        className="inline-flex items-center justify-center bg-ink text-white px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold transition-all duration-700 shadow-xl"
+                      >
+                        {service.cta}
+                      </a>
+                    )}
+                    <Link
+                      to="/contacto"
+                      className="inline-flex items-center justify-center border border-gold/30 text-zinc-700 px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold hover:text-white transition-all duration-700"
+                    >
+                      Si estás interesado, contáctanos
+                    </Link>
+                  </div>
+                </div>
+              </motion.article>
+            ))}
           </div>
+
+          
         </div>
       </section>
     </div>
@@ -1164,7 +1348,7 @@ export default function App() {
         <Footer t={t} />
 
         <a 
-          href="https://wa.me/34683511200" 
+          href="https://wa.me/34685384756" 
           target="_blank" 
           rel="noopener noreferrer"
           className="fixed bottom-8 right-8 z-50 bg-gold text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95"
