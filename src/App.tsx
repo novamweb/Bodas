@@ -150,7 +150,7 @@ const content = {
       { name: "Contacto", path: "/contacto" },
     ],
 
-    hero: "Elegance Mariages",
+    hero: "Una Simple Boda",
     heroSubtitle: "Planificación de Bodas de Lujo & Destinos Exclusivos",
 
     about: "La Visionaria",
@@ -161,7 +161,7 @@ const content = {
 
     aboutUsTitle: "Sobre Nosotros",
     aboutUsSubtitle:
-      "Creamos experiencias que se sienten, se viven y se recuerdan para siempre.",
+      "«El lujo es ser, no parecer.»  — Enrique Loewe.",
 
     whoWeAreTitle: "Quiénes somos",
     whoWeAreText:
@@ -260,7 +260,7 @@ const content = {
     contact: "Contacto",
     contactTitle: "Hablemos de su gran día",
 
-    locations: "Madrid · París · Londres · Roma",
+    locations: "Toledo · Ibiza · Formentera · Barcelona · Gerona · Cuenca · Talavera",
 
     formName: "Nombre",
     formEmail: "Email",
@@ -282,7 +282,7 @@ const content = {
       { name: "Contact", path: "/contacto" },
     ],
 
-    hero: "Elegance Mariages",
+    hero: "Una Simple boda",
     heroSubtitle: "Luxury Wedding Planning & Exclusive Destinations",
 
     about: "The Visionary",
@@ -396,7 +396,7 @@ const content = {
     contact: "Contact",
     contactTitle: "Let's talk about your big day",
 
-    locations: "Madrid · Paris · London · Rome",
+    locations: "Toledo · Ibiza · Formentera · Barcelona · Gerona · Cuenca · Talavera",
 
     formName: "Name",
     formEmail: "Email",
@@ -418,7 +418,7 @@ const content = {
       { name: "Contact", path: "/contacto" },
     ],
 
-    hero: "Elegance Mariages",
+    hero: "Una Simple boda",
     heroSubtitle: "Planification de Mariages de Luxe & Destinations Exclusives",
 
     about: "À Propos",
@@ -536,7 +536,7 @@ const content = {
     contact: "Contact",
     contactTitle: "Parlons de votre grand jour",
 
-    locations: "Madrid · Paris · Londres · Rome",
+    locations: "Toledo · Ibiza · Formentera · Barcelona · Gerona · Cuenca · Talavera",
 
     formName: "Nom",
     formEmail: "Email",
@@ -558,7 +558,7 @@ const content = {
       { name: "Contatti", path: "/contacto" },
     ],
 
-    hero: "Elegance Mariages",
+    hero: "Una Simple boda",
     heroSubtitle:
       "Pianificazione Matrimoni di Lusso & Destinazioni Esclusive",
 
@@ -678,7 +678,7 @@ const content = {
     contact: "Contatti",
     contactTitle: "Parliamo del vostro grande giorno",
 
-    locations: "Madrid · Parigi · Londra · Roma",
+    locations: "Toledo · Ibiza · Formentera · Barcelona · Gerona · Cuenca · Talavera",
 
     formName: "Nome",
     formEmail: "Email",
@@ -700,7 +700,7 @@ const content = {
       { name: "Kontakt", path: "/contacto" },
     ],
 
-    hero: "Elegance Mariages",
+    hero: "Una Simple boda",
     heroSubtitle: "Luxus-Hochzeitsplanung & Exklusive Destinationen",
 
     about: "Über Mich",
@@ -820,7 +820,7 @@ const content = {
     contactTitle:
       "Lassen Sie uns über Ihren großen Tag sprechen",
 
-    locations: "Madrid · Paris · London · Rom",
+    locations: "Toledo · Ibiza · Formentera · Barcelona · Gerona · Cuenca · Talavera",
 
     formName: "Name",
     formEmail: "E-Mail",
@@ -1193,7 +1193,7 @@ const Footer = memo(({ t }: { t: any }) => (
   <footer className="py-24 border-t border-gold/10 bg-champagne">
     <div className="max-w-7xl mx-auto px-8">
       <div className="flex flex-col items-center text-center">
-        <h2 className="font-serif text-3xl tracking-[0.4em] uppercase font-light mb-6 luxury-text">
+        <h2 className="font-serif text-6xl md:text-[2vw] font-light uppercase editorial-title">
           {t.hero}
         </h2>
 
@@ -1206,7 +1206,7 @@ const Footer = memo(({ t }: { t: any }) => (
             </span>
 
             <p>info@unasimpleboda.com</p>
-            <p>+34 600 000 000</p>
+            <p>+34 640 990 792</p>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -1251,14 +1251,14 @@ const Home = memo(({ t }: { t: any }) => (
   <div className="page-transition">
     <section className="h-screen relative flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop"
-          alt="Luxury Wedding"
-          className="w-full h-full object-cover premium-image"
-          referrerPolicy="no-referrer"
-          fetchPriority="high"
-          decoding="async"
-        />
+       <img
+  src={img("p.png")}
+  alt="Luxury Wedding"
+  className="w-full h-full object-cover premium-image"
+  referrerPolicy="no-referrer"
+  fetchPriority="high"
+  decoding="async"
+/>
 
         <div className="absolute inset-0 bg-black/50" />
       </div>
@@ -1279,12 +1279,12 @@ const Home = memo(({ t }: { t: any }) => (
         className="relative z-10 text-center text-white px-6 max-w-5xl"
       >
        <div className="mb-16">
-  <h2 className="font-serif text-6xl md:text-[10vw] font-light uppercase editorial-title">
+  <h2 className="font-serif text-6xl md:text-[8vw] font-light uppercase editorial-title">
     {t.hero}
-  </h2>
+  </h2> 
 
   <p className="font-serif text-2xl md:text-4xl font-light italic-serif mt-4 tracking-[0.15em]">
-    Una Simple Boda
+    Vuestra historia, escrita con luz propia 
   </p>
 
   <span className="block text-[9px] md:text-[11px] uppercase tracking-[0.6em] text-white/75 mt-4">
@@ -1730,25 +1730,25 @@ const Services = memo(({ t }: { t: any }) => {
     {
       number: "03",
       title: "Organización a vuestra medida",
-      desc: "Un servicio pensado para parejas que ya tienen espacio y varios proveedores contratados, pero necesitan acompañamiento, planificación y coordinación para continuar con seguridad.",
+      desc: "Un servicio pensado para parejas que ya tienen espacio y varios proveedores contratados, pero necesitan acompañamiento, planificación y coordinación para continuar el camino con seguridad.",
       img: img("3.jpg"),
     },
     {
       number: "04",
-      title: "Decoración de bodas y espacios",
+      title: "Diseño y decoración de bodas y espacios",
       desc: "Diseño y cuidado de cada rincón para que la decoración cuente vuestra historia y cree una atmósfera única, coherente y especial para vuestros invitados.",
       img: img("castillodecora.jpg"),
     },
     {
       number: "05",
-      title: "Tartas nupciales",
+      title: "Tartas de Diseño",
       desc: "Tartas artesanales elaboradas con ingredientes de calidad y diseños personalizados que se adaptan al estilo de vuestra boda, desde propuestas clásicas hasta opciones más modernas.",
       img: img("tarta2.jpg"),
     },
     {
       number: "06",
-      title: "Events Kids",
-      desc: "Espacios y celebraciones para los más pequeños durante bautizos, comuniones, cumpleaños y bodas, con mesas dulces, decoración y actividades pensadas para disfrutar.",
+      title: "Despedidas , pre-bodas y post-bodas",
+      desc: "Experiencias a medida , sin estres , reales y exclusivas porque cada celebracion es diferente.",
       img: img("pdetalles.png"),
     },
   ];
@@ -2139,8 +2139,8 @@ const Premium = memo(({ t }: { t: any }) => {
                       to="/contacto"
                       className="inline-flex items-center justify-center border border-gold/30 text-zinc-700 px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold hover:text-white transition-all duration-700"
                     >
-                      Si estás interesado,
-                      contáctanos
+                      
+                      Contáctanos
                     </Link>
                   </div>
                 </div>
@@ -2157,178 +2157,283 @@ const Premium = memo(({ t }: { t: any }) => {
    CONTACT
 ========================================================= */
 
-const Contact = memo(({ t }: { t: any }) => (
-  <div className="page-transition pt-32 bg-champagne min-h-screen">
-    <section className="py-40 px-6">
-      <div className="max-w-4xl mx-auto text-center">
-        <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-8 block font-medium">
-          {t.contact}
-        </span>
+const Contact = memo(({ t }: { t: any }) => {
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [error, setError] = useState(false);
 
-        <h3 className="font-serif text-5xl md:text-7xl font-light mb-24 editorial-title italic-serif">
-          {t.contactTitle}
-        </h3>
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSending(true);
+    setSent(false);
+    setError(false);
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-          {/* EMAIL */}
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
-          <a
-            href="mailto:info@unasimpleboda.com"
-            className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500 overflow-hidden"
+    try {
+      const response = await fetch(
+        "https://formsubmit.co/ajax/info@unasimpleboda.com",
+        {
+          method: "POST",
+          body: formData,
+          headers: {
+            Accept: "application/json",
+          },
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("No se pudo enviar el formulario");
+      }
+
+      form.reset();
+      setSent(true);
+    } catch {
+      setError(true);
+    } finally {
+      setSending(false);
+    }
+  };
+
+  return (
+    <div className="page-transition pt-32 bg-champagne min-h-screen">
+      <section className="py-40 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center">
+            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-8 block font-medium">
+              {t.contact}
+            </span>
+
+            <h3 className="font-serif text-5xl md:text-7xl font-light mb-16 editorial-title italic-serif">
+              {t.contactTitle}
+            </h3>
+          </div>
+
+          <form
+            onSubmit={handleSubmit}
+            className="max-w-3xl mx-auto bg-white/70 backdrop-blur-sm border border-gold/10 p-8 md:p-14 shadow-xl"
           >
-            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-              <Mail className="w-6 h-6 font-light text-gold" />
-            </div>
+            <input type="hidden" name="_subject" value="Nueva solicitud desde Una Simple Boda" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
 
-            <div className="text-left min-w-0">
-              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
-                Email
-              </p>
-
-              <span className="text-sm tracking-[0.1em] font-light break-all">
-                info@unasimpleboda.com
-              </span>
-            </div>
-          </a>
-
-          {/* PHONE */}
-
-          <a
-            href="tel:+34600000000"
-            className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
-          >
-            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-              <Phone className="w-6 h-6 font-light text-gold" />
-            </div>
-
-            <div className="text-left">
-              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
-                Phone
-              </p>
-
-              <span className="text-sm tracking-[0.2em] uppercase font-light">
-                +34 600 000 000
-              </span>
-            </div>
-          </a>
-
-          {/* WHATSAPP */}
-
-          <a
-            href="https://wa.me/34600000000"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
-          >
-            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-              <svg
-                className="w-6 h-6 text-gold"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.5 1.34 5.02L2 22l5.13-1.35A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10zm5.86 14.2c-.25.7-1.45 1.34-2 1.42-.51.08-1.16.11-1.87-.12-.43-.14-.98-.32-1.69-.62-2.97-1.28-4.91-4.26-5.06-4.46-.15-.2-1.21-1.61-1.21-3.07 0-1.46.77-2.18 1.04-2.47.27-.29.6-.36.8-.36.2 0 .4 0 .58.01.19.01.44-.07.68.53.25.6.85 2.08.92 2.23.07.15.12.33.02.53-.1.2-.15.33-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.29.76 1.26 1.63 2.04 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.18 1.38z" />
-              </svg>
-            </div>
-
-            <div className="text-left">
-              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
-                WhatsApp
-              </p>
-
-              <span className="text-sm tracking-[0.2em] uppercase font-light">
-                Escríbenos
-              </span>
-            </div>
-          </a>
-
-          {/* INSTAGRAM */}
-
-          <a
-            href="https://instagram.com/unasimpleboda"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
-          >
-            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-              <svg
-                className="w-6 h-6 text-gold"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <rect
-                  x="2"
-                  y="2"
-                  width="20"
-                  height="20"
-                  rx="5"
-                  ry="5"
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="novios"
+                  className="block text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-3"
+                >
+                  NOMBRE DE LOS NOVIOS
+                </label>
+                <input
+                  id="novios"
+                  name="Nombre de los novios"
+                  type="text"
+                  required
+                  placeholder="Nombre y nombre"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
                 />
+              </div>
 
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-
-                <line
-                  x1="17.5"
-                  y1="6.5"
-                  x2="17.51"
-                  y2="6.5"
+              <div>
+                <label
+                  htmlFor="fecha"
+                  className="block text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-3"
+                >
+                  1. FECHA DE LA BODA
+                </label>
+                <input
+                  id="fecha"
+                  name="Fecha de la boda"
+                  type="date"
+                  required
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
                 />
-              </svg>
+              </div>
+
+              <div>
+                <label
+                  htmlFor="telefono"
+                  className="block text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-3"
+                >
+                  2. TELÉFONO DE CONTACTO
+                </label>
+                <input
+                  id="telefono"
+                  name="Teléfono de contacto"
+                  type="tel"
+                  required
+                  placeholder="+34 600 000 000"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                />
+              </div>
+
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="email"
+                  className="block text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-3"
+                >
+                  3. EMAIL
+                </label>
+                <input
+                  id="email"
+                  name="Email"
+                  type="email"
+                  required
+                  placeholder="nombre@email.com"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                />
+              </div>
+
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="ubicacion"
+                  className="block text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-3"
+                >
+                  4. PAÍS, CIUDAD Y CÓDIGO POSTAL
+                </label>
+                <input
+                  id="ubicacion"
+                  name="País, ciudad y código postal"
+                  type="text"
+                  required
+                  placeholder="España, Toledo, 45001"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                />
+              </div>
+
+              <div className="md:col-span-2">
+                <label
+                  htmlFor="invitados"
+                  className="block text-[10px] uppercase tracking-[0.35em] text-zinc-500 mb-3"
+                >
+                  5. NÚMERO DE INVITADOS
+                </label>
+                <input
+                  id="invitados"
+                  name="Número de invitados"
+                  type="number"
+                  min="1"
+                  required
+                  placeholder="Ej. 120"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                />
+              </div>
             </div>
 
-            <div className="text-left">
-              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
-                Instagram
-              </p>
-
-              <span className="text-sm tracking-[0.2em] uppercase font-light">
-                @unasimpleboda
-              </span>
-            </div>
-          </a>
-
-          {/* FACEBOOK */}
-
-          <a
-            href="https://facebook.com/elegancemariages"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500 md:col-span-2"
-          >
-            <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-              <svg
-                className="w-6 h-6 text-gold"
-                viewBox="0 0 24 24"
-                fill="currentColor"
+            <div className="mt-12 text-center">
+              <button
+                type="submit"
+                disabled={sending}
+                className="inline-block bg-gold text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-white hover:text-ink border border-gold transition-all duration-700 luxury-text shadow-2xl shadow-gold/20 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                <path d="M22 12.06C22 6.505 17.523 2 12 2S2 6.505 2 12.06c0 5.02 3.657 9.184 8.438 9.94v-7.03H7.898v-2.91h2.54V9.845c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.459h-1.26c-1.243 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.91h-2.33V22c4.78-.756 8.438-4.92 8.438-9.94z" />
-              </svg>
+                {sending ? "Enviando..." : "Enviar Solicitud"}
+              </button>
+
+              {sent && (
+                <p className="mt-6 text-sm text-green-700">
+                  Gracias. Hemos recibido vuestra solicitud correctamente.
+                </p>
+              )}
+
+              {error && (
+                <p className="mt-6 text-sm text-red-700">
+                  No se ha podido enviar el formulario. Por favor, inténtalo de nuevo o escríbenos directamente a info@unasimpleboda.com.
+                </p>
+              )}
             </div>
+          </form>
 
-            <div className="text-left">
-              <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
-                Facebook
-              </p>
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <a
+              href="mailto:info@unasimpleboda.com"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500 overflow-hidden"
+            >
+              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <Mail className="w-6 h-6 font-light text-gold" />
+              </div>
 
-              <span className="text-sm tracking-[0.2em] uppercase font-light">
-                Una Simple Boda
-              </span>
-            </div>
-          </a>
+              <div className="text-left min-w-0">
+                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
+                  Email
+                </p>
+                <span className="text-sm tracking-[0.1em] font-light break-all">
+                  info@unasimpleboda.com
+                </span>
+              </div>
+            </a>
+
+            <a
+              href="tel:+34640990792"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
+            >
+              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <Phone className="w-6 h-6 font-light text-gold" />
+              </div>
+
+              <div className="text-left">
+                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
+                  Phone
+                </p>
+                <span className="text-sm tracking-[0.2em] uppercase font-light">
+                  +34 640 990 792
+                </span>
+              </div>
+            </a>
+
+            <a
+              href="https://wa.me/34640990792"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
+            >
+              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <MessageCircle className="w-6 h-6 font-light text-gold" />
+              </div>
+
+              <div className="text-left">
+                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
+                  WhatsApp
+                </p>
+                <span className="text-sm tracking-[0.2em] uppercase font-light">
+                  Escríbenos
+                </span>
+              </div>
+            </a>
+
+            <a
+              href="https://instagram.com/una_simple_boda"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
+            >
+              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <Instagram className="w-6 h-6 font-light text-gold" />
+              </div>
+
+              <div className="text-left">
+                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
+                  Instagram
+                </p>
+                <span className="text-sm tracking-[0.2em] uppercase font-light">
+                  @una_simple_boda
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <div className="mt-16 flex items-center justify-center gap-3">
+            <MapPin className="w-4 h-4 text-gold" />
+            <span className="text-sm tracking-[0.2em] uppercase font-light luxury-text">
+              {t.locations}
+            </span>
+          </div>
         </div>
-
-        <div className="mt-16 flex items-center justify-center gap-3">
-          <MapPin className="w-4 h-4 text-gold" />
-
-          <span className="text-sm tracking-[0.2em] uppercase font-light luxury-text">
-            {t.locations}
-          </span>
-        </div>
-      </div>
-    </section>
-  </div>
-));
+      </section>
+    </div>
+  );
+});
 
 /* =========================================================
    APP
