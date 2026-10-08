@@ -1226,7 +1226,7 @@ const Footer = memo(({ t }: { t: any }) => (
 
             <div className="flex justify-center gap-6">
               <Instagram className="w-4 h-4 hover:text-gold cursor-pointer transition-colors" />
-              <Twitter className="w-4 h-4 hover:text-gold cursor-pointer transition-colors" />
+              
             </div>
           </div>
         </div>
