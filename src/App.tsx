@@ -2033,7 +2033,7 @@ const Premium = memo(({ t }: { t: any }) => {
     {
       number: "03",
 
-      image: img("servicio3.jpeg"),
+      image: img("3servicio.jpg"),
 
       title: t.premium3Title,
 
