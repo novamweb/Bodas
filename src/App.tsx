@@ -2601,7 +2601,7 @@ export default function App() {
         <Footer t={t} />
 
         <a
-          href="https://wa.me/34685384756"
+          href="https://wa.me/34640990792"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-8 right-8 z-50 bg-[#8FB1FF] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95"
