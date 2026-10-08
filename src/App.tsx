@@ -232,6 +232,21 @@ const content = {
     premiumCeremonyQuote:
       "Porque una ceremonia que habla de vosotros, no se olvida.",
 
+    premium3Title: "Fotografía · Vídeo · Creación de Contenido",
+    premium3Subtitle:
+      "Historias que cuentan lo que ocurrió, pero sobre todo cómo se sintió.",
+    premium3Desc:
+      "Soy Alba, creadora audiovisual. Mi visión es sencilla: no solo se trata de hacer fotografías o vídeos de una boda, se trata de observar y encontrar aquello que hace que ese día sea realmente vuestro, que tenga vuestra esencia. Para mí lo primordial es trabajar desde una mirada cuidada, natural y cercana que busca capturar la emoción sin forzarla ni ornamentarla. Para crear historias que sigan teniendo sentido con el paso del tiempo.",
+    premium3PhotoTitle: "Fotografía",
+    premium3Photo:
+      "Imágenes que cuentan lo que ocurrió, pero sobre todo cómo se sintió.",
+    premium3VideoTitle: "Vídeo",
+    premium3Video:
+      "Historias, construidas a partir de gestos, voces, miradas, momentos que merecen ser revividos.",
+    premium3ContentTitle: "Creación de Contenido",
+    premium3Content:
+      "La parte más espontánea y actual para compartir y revivir desde otra perspectiva.",
+
     premium1: "Concierge Privado",
     premium1Desc:
       "Acompañamiento personalizado durante todo el proceso, con atención directa y coordinación de cada necesidad especial.",
@@ -367,6 +382,21 @@ const content = {
 
     premiumCeremonyQuote:
       "Because a ceremony that speaks about you is never forgotten.",
+
+    premium3Title: "Photography · Video · Content Creation",
+    premium3Subtitle:
+      "Stories that tell what happened, but above all how it felt.",
+    premium3Desc:
+      "I'm Alba, an audiovisual creator. My vision is simple: it is not only about taking photographs or videos of a wedding, but about observing and finding what makes that day truly yours, what gives it your essence. For me, the most important thing is to work with a careful, natural and close perspective that seeks to capture emotion without forcing or embellishing it. To create stories that continue to make sense over time.",
+    premium3PhotoTitle: "Photography",
+    premium3Photo:
+      "Images that tell what happened, but above all how it felt.",
+    premium3VideoTitle: "Video",
+    premium3Video:
+      "Stories built from gestures, voices, glances and moments that deserve to be relived.",
+    premium3ContentTitle: "Content Creation",
+    premium3Content:
+      "The most spontaneous and current way to share and relive it from another perspective.",
 
     premium1: "Private Concierge",
     premium1Desc:
@@ -507,6 +537,21 @@ const content = {
 
     premiumCeremonyQuote:
       "Parce qu'une cérémonie qui parle de vous ne s'oublie pas.",
+
+    premium3Title: "Photographie · Vidéo · Création de contenu",
+    premium3Subtitle:
+      "Des histoires qui racontent ce qui s'est passé, mais surtout ce que l'on a ressenti.",
+    premium3Desc:
+      "Je suis Alba, créatrice audiovisuelle. Ma vision est simple : il ne s'agit pas seulement de réaliser des photographies ou des vidéos d'un mariage, mais d'observer et de trouver ce qui rend cette journée véritablement vôtre, ce qui lui donne votre essence. Pour moi, l'essentiel est de travailler avec un regard soigné, naturel et proche, qui cherche à capturer l'émotion sans la forcer ni l'orner. Pour créer des histoires qui gardent leur sens au fil du temps.",
+    premium3PhotoTitle: "Photographie",
+    premium3Photo:
+      "Des images qui racontent ce qui s'est passé, mais surtout ce que l'on a ressenti.",
+    premium3VideoTitle: "Vidéo",
+    premium3Video:
+      "Des histoires construites à partir de gestes, de voix, de regards et de moments qui méritent d'être revécus.",
+    premium3ContentTitle: "Création de contenu",
+    premium3Content:
+      "La partie la plus spontanée et actuelle pour partager et revivre chaque instant sous un autre angle.",
 
     premium1: "Conciergerie Privée",
     premium1Desc:
@@ -650,6 +695,21 @@ const content = {
     premiumCeremonyQuote:
       "Perché una cerimonia che parla di voi non si dimentica.",
 
+    premium3Title: "Fotografia · Video · Creazione di Contenuti",
+    premium3Subtitle:
+      "Storie che raccontano ciò che è accaduto, ma soprattutto come ci si è sentiti.",
+    premium3Desc:
+      "Sono Alba, creatrice audiovisiva. La mia visione è semplice: non si tratta solo di realizzare fotografie o video di un matrimonio, ma di osservare e trovare ciò che rende quel giorno davvero vostro, ciò che ne esprime l'essenza. Per me la cosa più importante è lavorare con uno sguardo curato, naturale e vicino, che cerca di catturare l'emozione senza forzarla né adornarla. Per creare storie che continuino ad avere senso nel tempo.",
+    premium3PhotoTitle: "Fotografia",
+    premium3Photo:
+      "Immagini che raccontano ciò che è accaduto, ma soprattutto come ci si è sentiti.",
+    premium3VideoTitle: "Video",
+    premium3Video:
+      "Storie costruite a partire da gesti, voci, sguardi e momenti che meritano di essere rivissuti.",
+    premium3ContentTitle: "Creazione di Contenuti",
+    premium3Content:
+      "La parte più spontanea e attuale per condividere e rivivere ogni momento da un'altra prospettiva.",
+
     premium1: "Concierge Privato",
     premium1Desc:
       "Assistenza personalizzata durante tutto il processo, con attenzione diretta e coordinamento di ogni richiesta speciale.",
@@ -791,6 +851,21 @@ const content = {
     premiumCeremonyQuote:
       "Denn eine Zeremonie, die von Ihnen erzählt, bleibt unvergessen.",
 
+    premium3Title: "Fotografie · Video · Content Creation",
+    premium3Subtitle:
+      "Geschichten, die erzählen, was passiert ist – aber vor allem, wie es sich angefühlt hat.",
+    premium3Desc:
+      "Ich bin Alba, audiovisuelle Kreative. Meine Vision ist einfach: Es geht nicht nur darum, Fotos oder Videos einer Hochzeit zu machen, sondern darum, zu beobachten und das zu finden, was diesen Tag wirklich zu Ihrem macht, was Ihre Essenz widerspiegelt. Für mich ist es entscheidend, mit einem sorgfältigen, natürlichen und nahbaren Blick zu arbeiten, der Emotionen einfängt, ohne sie zu erzwingen oder auszuschmücken. Um Geschichten zu schaffen, die auch im Laufe der Zeit ihre Bedeutung behalten.",
+    premium3PhotoTitle: "Fotografie",
+    premium3Photo:
+      "Bilder, die erzählen, was passiert ist – aber vor allem, wie es sich angefühlt hat.",
+    premium3VideoTitle: "Video",
+    premium3Video:
+      "Geschichten, die aus Gesten, Stimmen, Blicken und Momenten entstehen, die es verdienen, wieder erlebt zu werden.",
+    premium3ContentTitle: "Content Creation",
+    premium3Content:
+      "Die spontanste und aktuellste Art, besondere Momente aus einer anderen Perspektive zu teilen und wiederzuerleben.",
+
     premium1: "Privater Concierge",
     premium1Desc:
       "Persönliche Begleitung während des gesamten Prozesses, mit direkter Betreuung und Koordination jedes besonderen Wunsches.",
@@ -890,11 +965,11 @@ const Carousel = memo(({ label }: { label: string }) => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-4 block font-medium">
+          <span className="text-[10px] uppercase tracking-[0.8em] text-[#8FB1FF] mb-4 block font-medium">
             {label}
           </span>
 
-          <div className="w-12 h-[1px] bg-gold/40 mx-auto" />
+          <div className="w-12 h-[1px] bg-[#8FB1FF]/40 mx-auto" />
         </motion.div>
 
         <div className="relative w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden shadow-2xl bg-zinc-900">
@@ -1012,10 +1087,10 @@ const Navbar = memo(
         <nav
           className={`fixed top-0 w-full z-50 transition-all duration-500 ${
             scrolled
-              ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-gold/20"
+              ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-[#8FB1FF]/20"
               : isHome
               ? "bg-transparent py-8"
-              : "bg-white py-6 border-b border-gold/10"
+              : "bg-white py-6 border-b border-[#8FB1FF]/10"
           }`}
         >
           <div className="max-w-[1800px] mx-auto px-10 flex justify-between items-center">
@@ -1028,7 +1103,7 @@ const Navbar = memo(
                   className={`w-6 h-6 ${
                     !scrolled && isHome
                       ? "text-white"
-                      : "text-zinc-900"
+                      : "text-taupe"
                   }`}
                 />
               </button>
@@ -1046,18 +1121,18 @@ const Navbar = memo(
                     to={item.path}
                     className={`relative transition-all duration-300 group ${
                       item.premium
-                        ? "text-gold font-medium"
-                        : "hover:text-gold"
+                        ? "text-[#8FB1FF] font-medium"
+                        : "hover:text-[#8FB1FF]"
                     } ${
                       location.pathname === item.path
-                        ? "text-gold"
+                        ? "text-[#8FB1FF]"
                         : ""
                     }`}
                   >
                     {item.name}
 
                     <span
-                      className={`absolute -bottom-2 left-0 w-0 h-[2px] bg-gold transition-all duration-500 group-hover:w-full ${
+                      className={`absolute -bottom-2 left-0 w-0 h-[2px] bg-[#8FB1FF] transition-all duration-500 group-hover:w-full ${
                         location.pathname === item.path
                           ? "w-full"
                           : ""
@@ -1073,10 +1148,10 @@ const Navbar = memo(
                 onClick={() =>
                   setIsLangOpen(!isLangOpen)
                 }
-                className={`flex items-center gap-4 text-[10px] tracking-[0.3em] uppercase hover:text-gold transition-all duration-500 ${
+                className={`flex items-center gap-4 text-[10px] tracking-[0.3em] uppercase hover:text-[#8FB1FF] transition-all duration-500 ${
                   !scrolled && isHome
                     ? "text-white"
-                    : "text-zinc-900"
+                    : "text-taupe"
                 }`}
               >
                 <div className="flex items-center gap-2">
@@ -1111,7 +1186,7 @@ const Navbar = memo(
                       opacity: 0,
                       y: 10,
                     }}
-                    className="absolute right-0 mt-6 bg-white border border-gold/10 shadow-2xl p-4 min-w-[160px] rounded-xl overflow-hidden"
+                    className="absolute right-0 mt-6 bg-white border border-[#8FB1FF]/10 shadow-2xl p-4 min-w-[160px] rounded-xl overflow-hidden"
                   >
                     {(
                       [
@@ -1130,7 +1205,7 @@ const Navbar = memo(
                         }}
                         className={`flex items-center gap-4 w-full px-4 py-3 text-[10px] tracking-widest transition-all duration-300 rounded-lg ${
                           lang === l
-                            ? "bg-zinc-50 text-gold"
+                            ? "bg-zinc-50 text-[#8FB1FF]"
                             : "hover:bg-zinc-50 text-zinc-500"
                         }`}
                       >
@@ -1154,11 +1229,11 @@ const Navbar = memo(
               initial={{ x: "-100%" }}
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
-              className="fixed inset-0 z-[60] bg-champagne p-8 flex flex-col border-r border-gold/10"
+              className="fixed inset-0 z-[60] bg-champagne p-8 flex flex-col border-r border-[#8FB1FF]/10"
             >
               <button
                 onClick={() => setIsMenuOpen(false)}
-                className="self-end mb-12 hover:text-gold transition-colors"
+                className="self-end mb-12 hover:text-[#8FB1FF] transition-colors"
               >
                 <X className="w-8 h-8 font-light" />
               </button>
@@ -1171,7 +1246,7 @@ const Navbar = memo(
                     onClick={() =>
                       setIsMenuOpen(false)
                     }
-                    className="hover:text-gold transition-colors"
+                    className="hover:text-[#8FB1FF] transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -1190,18 +1265,18 @@ const Navbar = memo(
 ========================================================= */
 
 const Footer = memo(({ t }: { t: any }) => (
-  <footer className="py-24 border-t border-gold/10 bg-champagne">
+  <footer className="py-24 border-t border-[#8FB1FF]/10 bg-champagne">
     <div className="max-w-7xl mx-auto px-8">
       <div className="flex flex-col items-center text-center">
         <h2 className="font-serif text-6xl md:text-[2vw] font-light uppercase editorial-title">
           {t.hero}
         </h2>
 
-        <div className="w-12 h-[2px] bg-gold mb-12" />
+        <div className="w-12 h-[2px] bg-[#8FB1FF] mb-12" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-12 mb-20 text-[10px] uppercase tracking-[0.3em] font-light text-zinc-500">
           <div className="flex flex-col gap-4">
-            <span className="text-zinc-900 font-medium">
+            <span className="text-taupe font-medium">
               Contact
             </span>
 
@@ -1210,7 +1285,7 @@ const Footer = memo(({ t }: { t: any }) => (
           </div>
 
           <div className="flex flex-col gap-4">
-            <span className="text-zinc-900 font-medium">
+            <span className="text-taupe font-medium">
               Locations
             </span>
 
@@ -1220,18 +1295,18 @@ const Footer = memo(({ t }: { t: any }) => (
           </div>
 
           <div className="flex flex-col gap-4">
-            <span className="text-zinc-900 font-medium">
+            <span className="text-taupe font-medium">
               Social
             </span>
 
             <div className="flex justify-center gap-6">
-              <Instagram className="w-4 h-4 hover:text-gold cursor-pointer transition-colors" />
+              <Instagram className="w-4 h-4 hover:text-[#8FB1FF] cursor-pointer transition-colors" />
               
             </div>
           </div>
         </div>
 
-        <p className="text-[10px] uppercase tracking-[0.5em] text-gold mb-8 font-medium">
+        <p className="text-[10px] uppercase tracking-[0.5em] text-[#8FB1FF] mb-8 font-medium">
           {t.footer}
         </p>
 
@@ -1295,14 +1370,14 @@ const Home = memo(({ t }: { t: any }) => (
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           <Link
             to="/portfolio"
-            className="inline-block border border-white/20 px-12 py-5 text-[10px] uppercase tracking-[0.5em] text-white hover:bg-white hover:text-ink transition-all duration-700 luxury-text backdrop-blur-sm"
+            className="inline-block border border-white/20 px-12 py-5 text-[10px] uppercase tracking-[0.5em] text-white hover:bg-white hover:text-taupe transition-all duration-700 luxury-text backdrop-blur-sm"
           >
             {t.portfolio}
           </Link>
 
           <Link
             to="/contacto"
-            className="inline-block bg-gold text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-white hover:text-ink transition-all duration-700 luxury-text shadow-2xl shadow-gold/20"
+            className="inline-block bg-[#8FB1FF] text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-white hover:text-taupe transition-all duration-700 luxury-text shadow-2xl shadow-[#8FB1FF]/20"
           >
             {t.contact}
           </Link>
@@ -1313,7 +1388,7 @@ const Home = memo(({ t }: { t: any }) => (
     <section className="py-40 bg-white">
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center mb-32">
-          <span className="text-[10px] uppercase tracking-[0.6em] text-gold mb-6 block">
+          <span className="text-[10px] uppercase tracking-[0.6em] text-[#8FB1FF] mb-6 block">
             {t.services}
           </span>
 
@@ -1370,7 +1445,7 @@ const Home = memo(({ t }: { t: any }) => (
                 <div
                   className={`relative aspect-[3/4] overflow-hidden mb-10 shadow-2xl transition-all duration-700 ${
                     item.premium
-                      ? "ring-1 ring-gold/40"
+                      ? "ring-1 ring-[#8FB1FF]/40"
                       : ""
                   }`}
                 >
@@ -1386,13 +1461,13 @@ const Home = memo(({ t }: { t: any }) => (
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/25 transition-all duration-700" />
 
                   {item.premium && (
-                    <span className="absolute top-6 right-6 bg-gold text-white px-4 py-2 text-[8px] uppercase tracking-[0.35em]">
+                    <span className="absolute top-6 right-6 bg-[#8FB1FF] text-white px-4 py-2 text-[8px] uppercase tracking-[0.35em]">
                       Premium
                     </span>
                   )}
 
                   <div className="absolute bottom-0 left-0 right-0 p-8 text-left bg-gradient-to-t from-black/70 via-black/20 to-transparent">
-                    <span className="text-[9px] uppercase tracking-[0.5em] text-gold">
+                    <span className="text-[9px] uppercase tracking-[0.5em] text-[#8FB1FF]">
                       0{i + 1}
                     </span>
                   </div>
@@ -1401,8 +1476,8 @@ const Home = memo(({ t }: { t: any }) => (
                 <h4
                   className={`font-serif text-3xl mb-5 luxury-text italic-serif transition-colors duration-500 ${
                     item.premium
-                      ? "text-gold"
-                      : "group-hover:text-gold"
+                      ? "text-[#8FB1FF]"
+                      : "group-hover:text-[#8FB1FF]"
                   }`}
                 >
                   {item.title}
@@ -1412,7 +1487,7 @@ const Home = memo(({ t }: { t: any }) => (
                   {item.desc}
                 </p>
 
-                <span className="inline-block mt-8 text-[9px] uppercase tracking-[0.5em] text-zinc-400 group-hover:text-gold transition-colors duration-500">
+                <span className="inline-block mt-8 text-[9px] uppercase tracking-[0.5em] text-zinc-400 group-hover:text-[#8FB1FF] transition-colors duration-500">
                   {t.viewDetail} →
                 </span>
               </Link>
@@ -1434,7 +1509,7 @@ const About = memo(({ t }: { t: any }) => (
   <div className="page-transition pt-32 bg-champagne min-h-screen">
     <section className="py-28 md:py-40 px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-12 block font-medium">
+        <span className="text-[10px] uppercase tracking-[0.8em] text-[#8FB1FF] mb-12 block font-medium">
           {t.about}
         </span>
 
@@ -1511,7 +1586,7 @@ const About = memo(({ t }: { t: any }) => (
                 once: true,
               }}
             >
-              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 gold-underline inline-block">
+              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
                 {t.whoWeAreTitle ??
                   "Quiénes somos"}
               </h3>
@@ -1539,7 +1614,7 @@ const About = memo(({ t }: { t: any }) => (
                 once: true,
               }}
             >
-              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 gold-underline inline-block">
+              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
                 {t.aboutMeTitle ??
                   "Sobre Mí..."}
               </h3>
@@ -1569,7 +1644,7 @@ const About = memo(({ t }: { t: any }) => (
           }}
           className="max-w-3xl mx-auto text-center mt-20 md:mt-28"
         >
-          <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 gold-underline inline-block">
+          <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
             {t.philosophyTitle}
           </h3>
 
@@ -1578,7 +1653,7 @@ const About = memo(({ t }: { t: any }) => (
           </p>
 
           <div className="mt-12 flex flex-col items-center gap-5">
-            <div className="w-24 h-[1px] bg-gold/30" />
+            <div className="w-24 h-[1px] bg-[#8FB1FF]/30" />
 
             <span className="font-serif text-xl md:text-2xl italic-serif text-taupe">
               {t.aboutUsClosing ??
@@ -1633,11 +1708,11 @@ const Portfolio = memo(({ t }: { t: any }) => {
       <section className="py-40">
         <div className="max-w-[1800px] mx-auto px-12">
           <div className="text-center mb-16">
-            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block font-medium">
+            <span className="text-[10px] uppercase tracking-[0.8em] text-[#8FB1FF] mb-6 block font-medium">
               {t.portfolio}
             </span>
 
-            <h3 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">
+            <h3 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
               {t.portfolioTitle}
             </h3>
           </div>
@@ -1651,8 +1726,8 @@ const Portfolio = memo(({ t }: { t: any }) => {
                 }
                 className={`px-8 py-3 text-[10px] uppercase tracking-[0.4em] border transition-all duration-500 ${
                   activeCat === f.key
-                    ? "bg-ink text-gold border-ink"
-                    : "bg-white text-zinc-400 border-zinc-200 hover:border-gold hover:text-zinc-700"
+                    ? "bg-taupe text-[#8FB1FF] border-taupe"
+                    : "bg-white text-zinc-400 border-zinc-200 hover:border-[#8FB1FF] hover:text-taupe"
                 }`}
               >
                 {f.label}
@@ -1660,7 +1735,7 @@ const Portfolio = memo(({ t }: { t: any }) => {
             ))}
           </div>
 
-          <p className="text-center text-[10px] uppercase tracking-[0.3em] text-gold mb-12">
+          <p className="text-center text-[10px] uppercase tracking-[0.3em] text-[#8FB1FF] mb-12">
             {filtered.length}{" "}
             {filtered.length === 1
               ? "imagen"
@@ -1743,7 +1818,7 @@ const Services = memo(({ t }: { t: any }) => {
       number: "05",
       title: "Tartas de Diseño",
       desc: "Tartas artesanales elaboradas con ingredientes de calidad y diseños personalizados que se adaptan al estilo de vuestra boda, desde propuestas clásicas hasta opciones más modernas.",
-      img: img("tarta2.jpg"),
+      img: img("tarta.jpeg"),
     },
     {
       number: "06",
@@ -1780,11 +1855,11 @@ const Services = memo(({ t }: { t: any }) => {
       <section className="py-28 md:py-40 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block font-medium">
+            <span className="text-[10px] uppercase tracking-[0.8em] text-[#8FB1FF] mb-6 block font-medium">
               {t.services}
             </span>
 
-            <h1 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif gold-underline inline-block">
+            <h1 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
               {t.servicesTitle}
             </h1>
 
@@ -1825,7 +1900,7 @@ const Services = memo(({ t }: { t: any }) => {
                 </div>
 
                 <div className="p-9 md:p-10">
-                  <span className="text-[9px] uppercase tracking-[0.5em] text-gold">
+                  <span className="text-[9px] uppercase tracking-[0.5em] text-[#8FB1FF]">
                     {service.number}
                   </span>
 
@@ -1843,7 +1918,7 @@ const Services = memo(({ t }: { t: any }) => {
 
           <div className="mt-24 md:mt-32 bg-white px-8 py-12 md:px-16 md:py-16 shadow-xl">
             <div className="text-center mb-12">
-              <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-5 block">
+              <span className="text-[10px] uppercase tracking-[0.8em] text-[#8FB1FF] mb-5 block">
                 Proveedores
               </span>
 
@@ -1862,7 +1937,7 @@ const Services = memo(({ t }: { t: any }) => {
                   key={provider}
                   className="flex items-center gap-3 text-sm text-zinc-500 font-light"
                 >
-                  <span className="text-gold">
+                  <span className="text-[#8FB1FF]">
                     ✦
                   </span>
 
@@ -1873,13 +1948,13 @@ const Services = memo(({ t }: { t: any }) => {
           </div>
 
           <div className="text-center mt-20">
-            <p className="font-serif text-2xl md:text-3xl italic-serif text-zinc-700 mb-10">
+            <p className="font-serif text-2xl md:text-3xl italic-serif text-taupe mb-10">
               Cada detalle cuenta. Vosotros vivís el momento; nosotros cuidamos el camino.
             </p>
 
             <Link
               to="/contacto"
-              className="inline-block bg-ink text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-gold transition-all duration-700 luxury-text shadow-2xl"
+              className="inline-block bg-taupe text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-[#8FB1FF] transition-all duration-700 luxury-text shadow-2xl"
             >
               {t.contact}
             </Link>
@@ -1954,11 +2029,46 @@ const Premium = memo(({ t }: { t: any }) => {
       includes: undefined,
       includesTitle: undefined,
     },
+
+    {
+      number: "03",
+
+      image: img("servicio3.jpeg"),
+
+      title: t.premium3Title,
+
+      subtitle: t.premium3Subtitle,
+
+      desc: t.premium3Desc,
+
+      sections: [
+        {
+          title: t.premium3PhotoTitle,
+          text: t.premium3Photo,
+        },
+        {
+          title: t.premium3VideoTitle,
+          text: t.premium3Video,
+        },
+        {
+          title: t.premium3ContentTitle,
+          text: t.premium3Content,
+        },
+      ],
+
+      quote: undefined,
+
+      link: undefined,
+      cta: undefined,
+
+      includes: undefined,
+      includesTitle: undefined,
+    },
   ];
 
   return (
-    <div className="page-transition pt-32 bg-champagne min-h-screen text-zinc-900">
-      <section className="relative overflow-hidden py-28 md:py-40 px-6 bg-ink text-white">
+    <div className="page-transition pt-32 bg-champagne min-h-screen text-taupe">
+      <section className="relative overflow-hidden py-28 md:py-40 px-6 bg-taupe text-white">
         <div className="absolute inset-0 opacity-35">
           <img
             src={img("novios1.jpg")}
@@ -1968,10 +2078,10 @@ const Premium = memo(({ t }: { t: any }) => {
           />
         </div>
 
-        <div className="absolute inset-0 bg-ink/55" />
+        <div className="absolute inset-0 bg-taupe/55" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <span className="text-[10px] uppercase tracking-[0.9em] text-gold mb-8 block">
+          <span className="text-[10px] uppercase tracking-[0.9em] text-[#8FB1FF] mb-8 block">
             {t.premiumLabel}
           </span>
 
@@ -1988,7 +2098,7 @@ const Premium = memo(({ t }: { t: any }) => {
       <section className="py-24 md:py-32 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-6 block">
+            <span className="text-[10px] uppercase tracking-[0.8em] text-[#8FB1FF] mb-6 block">
               {t.premiumLabel}
             </span>
 
@@ -2015,7 +2125,7 @@ const Premium = memo(({ t }: { t: any }) => {
                 transition={{
                   duration: 0.8,
                 }}
-                className="grid grid-cols-1 lg:grid-cols-2 bg-champagne shadow-2xl overflow-hidden border border-gold/10"
+                className="grid grid-cols-1 lg:grid-cols-2 bg-champagne shadow-2xl overflow-hidden border border-[#8FB1FF]/10"
               >
                 <div className="overflow-hidden min-h-[420px] lg:min-h-[620px]">
                   <img
@@ -2027,7 +2137,7 @@ const Premium = memo(({ t }: { t: any }) => {
                 </div>
 
                 <div className="p-10 md:p-16 lg:p-20 flex flex-col justify-center">
-                  <span className="text-[9px] uppercase tracking-[0.6em] text-gold mb-6">
+                  <span className="text-[9px] uppercase tracking-[0.6em] text-[#8FB1FF] mb-6">
                     {service.number} ·{" "}
                     {t.premiumLabel}
                   </span>
@@ -2053,8 +2163,8 @@ const Premium = memo(({ t }: { t: any }) => {
 
                   {service.includes &&
                     service.includes.length > 0 && (
-                      <div className="border-t border-gold/20 pt-7 mb-9">
-                        <h4 className="text-[10px] uppercase tracking-[0.5em] text-gold mb-5">
+                      <div className="border-t border-[#8FB1FF]/20 pt-7 mb-9">
+                        <h4 className="text-[10px] uppercase tracking-[0.5em] text-[#8FB1FF] mb-5">
                           {service.includesTitle ??
                             "Incluye"}
                         </h4>
@@ -2066,7 +2176,7 @@ const Premium = memo(({ t }: { t: any }) => {
                                 key={item}
                                 className="flex gap-3 text-sm text-zinc-600 font-light"
                               >
-                                <span className="text-gold">
+                                <span className="text-[#8FB1FF]">
                                   ✦
                                 </span>
 
@@ -2094,9 +2204,9 @@ const Premium = memo(({ t }: { t: any }) => {
                           ) => (
                             <div
                               key={`${service.number}-${index}`}
-                              className="border-t border-gold/20 pt-6"
+                              className="border-t border-[#8FB1FF]/20 pt-6"
                             >
-                              <h4 className="text-[10px] uppercase tracking-[0.45em] text-gold mb-4">
+                              <h4 className="text-[10px] uppercase tracking-[0.45em] text-[#8FB1FF] mb-4">
                                 {section.title}
                               </h4>
 
@@ -2114,7 +2224,7 @@ const Premium = memo(({ t }: { t: any }) => {
                   ================================================= */}
 
                   {service.quote && (
-                    <p className="font-serif text-xl italic-serif leading-relaxed text-zinc-700 border-l-2 border-gold pl-6 mb-9">
+                    <p className="font-serif text-xl italic-serif leading-relaxed text-taupe border-l-2 border-[#8FB1FF] pl-6 mb-9">
                       “{service.quote}”
                     </p>
                   )}
@@ -2129,7 +2239,7 @@ const Premium = memo(({ t }: { t: any }) => {
                       service.cta && (
                         <a
                           href={service.link}
-                          className="inline-flex items-center justify-center bg-ink text-white px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold transition-all duration-700 shadow-xl"
+                          className="inline-flex items-center justify-center bg-taupe text-white px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-[#8FB1FF] transition-all duration-700 shadow-xl"
                         >
                           {service.cta}
                         </a>
@@ -2137,7 +2247,7 @@ const Premium = memo(({ t }: { t: any }) => {
 
                     <Link
                       to="/contacto"
-                      className="inline-flex items-center justify-center border border-gold/30 text-zinc-700 px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-gold hover:text-white transition-all duration-700"
+                      className="inline-flex items-center justify-center border border-[#8FB1FF]/30 text-taupe px-8 py-5 text-[10px] uppercase tracking-[0.4em] hover:bg-[#8FB1FF] hover:text-white transition-all duration-700"
                     >
                       
                       Contáctanos
@@ -2201,7 +2311,7 @@ const Contact = memo(({ t }: { t: any }) => {
       <section className="py-40 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center">
-            <span className="text-[10px] uppercase tracking-[0.8em] text-gold mb-8 block font-medium">
+            <span className="text-[10px] uppercase tracking-[0.8em] text-[#8FB1FF] mb-8 block font-medium">
               {t.contact}
             </span>
 
@@ -2212,7 +2322,7 @@ const Contact = memo(({ t }: { t: any }) => {
 
           <form
             onSubmit={handleSubmit}
-            className="max-w-3xl mx-auto bg-white/70 backdrop-blur-sm border border-gold/10 p-8 md:p-14 shadow-xl"
+            className="max-w-3xl mx-auto bg-white/70 backdrop-blur-sm border border-[#8FB1FF]/10 p-8 md:p-14 shadow-xl"
           >
             <input type="hidden" name="_subject" value="Nueva solicitud desde Una Simple Boda" />
             <input type="hidden" name="_captcha" value="false" />
@@ -2232,7 +2342,7 @@ const Contact = memo(({ t }: { t: any }) => {
                   type="text"
                   required
                   placeholder="Nombre y nombre"
-                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-[#8FB1FF] transition-colors"
                 />
               </div>
 
@@ -2248,7 +2358,7 @@ const Contact = memo(({ t }: { t: any }) => {
                   name="Fecha de la boda"
                   type="date"
                   required
-                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-[#8FB1FF] transition-colors"
                 />
               </div>
 
@@ -2265,7 +2375,7 @@ const Contact = memo(({ t }: { t: any }) => {
                   type="tel"
                   required
                   placeholder="+34 600 000 000"
-                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-[#8FB1FF] transition-colors"
                 />
               </div>
 
@@ -2282,7 +2392,7 @@ const Contact = memo(({ t }: { t: any }) => {
                   type="email"
                   required
                   placeholder="nombre@email.com"
-                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-[#8FB1FF] transition-colors"
                 />
               </div>
 
@@ -2299,7 +2409,7 @@ const Contact = memo(({ t }: { t: any }) => {
                   type="text"
                   required
                   placeholder="España, Toledo, 45001"
-                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-[#8FB1FF] transition-colors"
                 />
               </div>
 
@@ -2317,7 +2427,7 @@ const Contact = memo(({ t }: { t: any }) => {
                   min="1"
                   required
                   placeholder="Ej. 120"
-                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-gold transition-colors"
+                  className="w-full bg-transparent border-b border-zinc-300 px-0 py-4 outline-none focus:border-[#8FB1FF] transition-colors"
                 />
               </div>
             </div>
@@ -2326,7 +2436,7 @@ const Contact = memo(({ t }: { t: any }) => {
               <button
                 type="submit"
                 disabled={sending}
-                className="inline-block bg-gold text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-white hover:text-ink border border-gold transition-all duration-700 luxury-text shadow-2xl shadow-gold/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="inline-block bg-[#8FB1FF] text-white px-12 py-5 text-[10px] uppercase tracking-[0.5em] hover:bg-white hover:text-taupe border border-[#8FB1FF] transition-all duration-700 luxury-text shadow-2xl shadow-[#8FB1FF]/20 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {sending ? "Enviando..." : "Enviar Solicitud"}
               </button>
@@ -2348,10 +2458,10 @@ const Contact = memo(({ t }: { t: any }) => {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             <a
               href="mailto:info@unasimpleboda.com"
-              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500 overflow-hidden"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-[#8FB1FF]/10 hover:border-[#8FB1FF] transition-all duration-500 overflow-hidden"
             >
-              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-                <Mail className="w-6 h-6 font-light text-gold" />
+              <div className="w-16 h-16 border border-[#8FB1FF]/20 flex items-center justify-center group-hover:border-[#8FB1FF] transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <Mail className="w-6 h-6 font-light text-[#8FB1FF]" />
               </div>
 
               <div className="text-left min-w-0">
@@ -2366,10 +2476,10 @@ const Contact = memo(({ t }: { t: any }) => {
 
             <a
               href="tel:+34640990792"
-              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-[#8FB1FF]/10 hover:border-[#8FB1FF] transition-all duration-500"
             >
-              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-                <Phone className="w-6 h-6 font-light text-gold" />
+              <div className="w-16 h-16 border border-[#8FB1FF]/20 flex items-center justify-center group-hover:border-[#8FB1FF] transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <Phone className="w-6 h-6 font-light text-[#8FB1FF]" />
               </div>
 
               <div className="text-left">
@@ -2386,10 +2496,10 @@ const Contact = memo(({ t }: { t: any }) => {
               href="https://wa.me/34640990792"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-[#8FB1FF]/10 hover:border-[#8FB1FF] transition-all duration-500"
             >
-              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-                <MessageCircle className="w-6 h-6 font-light text-gold" />
+              <div className="w-16 h-16 border border-[#8FB1FF]/20 flex items-center justify-center group-hover:border-[#8FB1FF] transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <MessageCircle className="w-6 h-6 font-light text-[#8FB1FF]" />
               </div>
 
               <div className="text-left">
@@ -2406,10 +2516,10 @@ const Contact = memo(({ t }: { t: any }) => {
               href="https://instagram.com/una_simple_boda"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-gold/10 hover:border-gold transition-all duration-500"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-[#8FB1FF]/10 hover:border-[#8FB1FF] transition-all duration-500"
             >
-              <div className="w-16 h-16 border border-gold/20 flex items-center justify-center group-hover:border-gold transition-all duration-500 bg-white/50 rounded-full shrink-0">
-                <Instagram className="w-6 h-6 font-light text-gold" />
+              <div className="w-16 h-16 border border-[#8FB1FF]/20 flex items-center justify-center group-hover:border-[#8FB1FF] transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <Instagram className="w-6 h-6 font-light text-[#8FB1FF]" />
               </div>
 
               <div className="text-left">
@@ -2424,7 +2534,7 @@ const Contact = memo(({ t }: { t: any }) => {
           </div>
 
           <div className="mt-16 flex items-center justify-center gap-3">
-            <MapPin className="w-4 h-4 text-gold" />
+            <MapPin className="w-4 h-4 text-[#8FB1FF]" />
             <span className="text-sm tracking-[0.2em] uppercase font-light luxury-text">
               {t.locations}
             </span>
@@ -2449,7 +2559,7 @@ export default function App() {
     <Router>
       <ScrollToTop />
 
-      <div className="min-h-screen bg-white text-zinc-900 selection:bg-gold/20">
+      <div className="min-h-screen bg-white text-taupe selection:bg-[#8FB1FF]/20">
         <Navbar
           lang={lang}
           setLang={setLang}
@@ -2494,7 +2604,7 @@ export default function App() {
           href="https://wa.me/34685384756"
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-8 right-8 z-50 bg-gold text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95"
+          className="fixed bottom-8 right-8 z-50 bg-[#8FB1FF] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95"
         >
           <MessageCircle className="w-6 h-6 fill-current" />
         </a>
