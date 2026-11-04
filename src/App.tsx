@@ -257,7 +257,7 @@ const content = {
 
     service1: "Planificación Integral",
     service1Desc:
-      "Desde la concepción hasta la ejecución, cuidamos cada detalle de su gran día.",
+      "Desde la concepción hasta la ejecución, cuidamos cada detalle de vuestro gran día.",
 
     service2: "Bodas de Destino",
     service2Desc:
@@ -273,7 +273,7 @@ const content = {
     viewDetail: "Ver Detalle",
 
     contact: "Contacto",
-    contactTitle: "Hablemos de su gran día",
+    contactTitle: "Hablemos de vuestro gran día",
 
     locations: "Toledo · Ibiza · Formentera · Barcelona · Gerona · Cuenca · Talavera",
 
