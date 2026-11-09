@@ -9,6 +9,7 @@ import {
 import { motion, AnimatePresence } from "motion/react";
 import {
   Instagram,
+  Facebook,
   Mail,
   MapPin,
   Phone,
@@ -38,6 +39,13 @@ const img = (name: string): string => {
 /* =========================================================
    PORTFOLIO
 ========================================================= */
+
+const portfolioFilters = [
+  { key: "todos", label: "Todos" },
+  { key: "castillo", label: "Castillo" },
+  { key: "playa", label: "Playa" },
+  { key: "campo", label: "Campo & Viñedo" },
+];
 
 const portfolioImages = [
   { src: img("decora1.jpg"), cat: "campo" },
@@ -1300,8 +1308,22 @@ const Footer = memo(({ t }: { t: any }) => (
             </span>
 
             <div className="flex justify-center gap-6">
-              <Instagram className="w-4 h-4 hover:text-[#8FB1FF] cursor-pointer transition-colors" />
-              
+              <a
+                href="https://www.instagram.com/una_simple_boda"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-4 h-4 hover:text-[#8FB1FF] cursor-pointer transition-colors" />
+              </a>
+              <a
+                href="https://www.facebook.com/yaleniseventandweddingplanner?mibextid=wwXIfr&rdid=ZMef0W5DfKykd1Q4&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1McBmvawkm%2F%3Fmibextid%3DwwXIfr#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-4 h-4 hover:text-[#8FB1FF] cursor-pointer transition-colors" />
+              </a>
             </div>
           </div>
         </div>
@@ -1586,7 +1608,7 @@ const About = memo(({ t }: { t: any }) => (
                 once: true,
               }}
             >
-              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
+              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6">
                 {t.whoWeAreTitle ??
                   "Quiénes somos"}
               </h3>
@@ -1614,7 +1636,7 @@ const About = memo(({ t }: { t: any }) => (
                 once: true,
               }}
             >
-              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
+              <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6">
                 {t.aboutMeTitle ??
                   "Sobre Mí..."}
               </h3>
@@ -1644,7 +1666,7 @@ const About = memo(({ t }: { t: any }) => (
           }}
           className="max-w-3xl mx-auto text-center mt-20 md:mt-28"
         >
-          <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6 underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
+          <h3 className="font-serif text-3xl md:text-4xl italic-serif text-taupe mb-6">
             {t.philosophyTitle}
           </h3>
 
@@ -1674,25 +1696,6 @@ const Portfolio = memo(({ t }: { t: any }) => {
   const [activeCat, setActiveCat] =
     useState<string>("todos");
 
-  const mainFilters = [
-    {
-      key: "todos",
-      label: "Todos",
-    },
-    {
-      key: "castillo",
-      label: "Castillo",
-    },
-    {
-      key: "playa",
-      label: "Playa",
-    },
-    {
-      key: "campo",
-      label: "Campo & Viñedo",
-    },
-  ];
-
   const filtered = useMemo(
     () =>
       portfolioImages.filter(
@@ -1712,13 +1715,13 @@ const Portfolio = memo(({ t }: { t: any }) => {
               {t.portfolio}
             </span>
 
-            <h3 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
+            <h3 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif">
               {t.portfolioTitle}
             </h3>
           </div>
 
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {mainFilters.map((f) => (
+            {portfolioFilters.map((f) => (
               <button
                 key={f.key}
                 onClick={() =>
@@ -1788,67 +1791,68 @@ const Portfolio = memo(({ t }: { t: any }) => {
    SERVICES
 ========================================================= */
 
-const Services = memo(({ t }: { t: any }) => {
-  const services = [
-    {
-      number: "01",
-      title: "Organización de principio a fin",
-      desc: "Acompañamiento integral para dar forma a vuestro sueño desde el inicio, con búsqueda, gestión y asesoramiento de proveedores, visitas a espacios y planificación de cada etapa.",
-      img: img("decora1.jpg"),
-    },
-    {
-      number: "02",
-      title: "Coordinación del día de la boda",
-      desc: "Coordinación integral del Día B, gestionando proveedores, montajes, entregas, sorpresas y momentos especiales para que vosotros podáis disfrutar de vuestra celebración.",
-      img: img("novios2.jpg"),
-    },
-    {
-      number: "03",
-      title: "Organización a vuestra medida",
-      desc: "Un servicio pensado para parejas que ya tienen espacio y varios proveedores contratados, pero necesitan acompañamiento, planificación y coordinación para continuar el camino con seguridad.",
-      img: img("3.jpg"),
-    },
-    {
-      number: "04",
-      title: "Diseño y decoración de bodas y espacios",
-      desc: "Diseño y cuidado de cada rincón para que la decoración cuente vuestra historia y cree una atmósfera única, coherente y especial para vuestros invitados.",
-      img: img("castillodecora.jpg"),
-    },
-    {
-      number: "05",
-      title: "Tartas de Diseño",
-      desc: "Tartas artesanales elaboradas con ingredientes de calidad y diseños personalizados que se adaptan al estilo de vuestra boda, desde propuestas clásicas hasta opciones más modernas.",
-      img: img("tarta.jpeg"),
-    },
-    {
-      number: "06",
-      title: "Despedidas , pre-bodas y post-bodas",
-      desc: "Experiencias a medida , sin estres , reales y exclusivas porque cada celebracion es diferente.",
-      img: img("pdetalles.png"),
-    },
-  ];
+const services = [
+  {
+    number: "01",
+    title: "Organización de principio a fin",
+    desc: "Acompañamiento integral para dar forma a vuestro sueño desde el inicio, con búsqueda, gestión y asesoramiento de proveedores, visitas a espacios y planificación de cada etapa.",
+    img: img("decora1.jpg"),
+  },
+  {
+    number: "02",
+    title: "Coordinación del día de la boda",
+    desc: "Coordinación integral del Día B, gestionando proveedores, montajes, entregas, sorpresas y momentos especiales para que vosotros podáis disfrutar de vuestra celebración.",
+    img: img("novios2.jpg"),
+  },
+  {
+    number: "03",
+    title: "Organización a vuestra medida",
+    desc: "Un servicio pensado para parejas que ya tienen espacio y varios proveedores contratados, pero necesitan acompañamiento, planificación y coordinación para continuar el camino con seguridad.",
+    img: img("3.jpg"),
+  },
+  {
+    number: "04",
+    title: "Diseño y decoración de bodas y espacios",
+    desc: "Diseño y cuidado de cada rincón para que la decoración cuente vuestra historia y cree una atmósfera única, coherente y especial para vuestros invitados.",
+    img: img("castillodecora.jpg"),
+  },
+  {
+    number: "05",
+    title: "Tartas de Diseño",
+    desc: "Tartas artesanales elaboradas con ingredientes de calidad y diseños personalizados que se adaptan al estilo de vuestra boda, desde propuestas clásicas hasta opciones más modernas.",
+    img: img("tarta.jpeg"),
+  },
+  {
+    number: "06",
+    title: "Despedidas , pre-bodas y post-bodas",
+    desc: "Experiencias a medida , sin estres , reales y exclusivas porque cada celebracion es diferente.",
+    img: img("pdetalles.png"),
+  },
+];
 
-  const providerGroups = [
-    "Fotógrafos",
-    "Localizaciones",
-    "Maestros de ceremonias",
-    "Decoración",
-    "Floristería",
-    "Tramitación de expediente",
-    "Invitaciones y papelería",
-    "Catering",
-    "Pastelerías",
-    "Hoteles y transporte",
-    "Música",
-    "Entretenimiento y animación infantil",
-    "Joyería",
-    "Peluquería y maquillaje",
-    "Spa y tratamientos de belleza",
-    "Diseñadores y atelier de vestidos de novia",
-    "Regalitos y detalles",
-    "Despedidas de solteros",
-    "Agencias de viajes de novios",
-  ];
+const providerGroups = [
+  "Fotógrafos",
+  "Localizaciones",
+  "Maestros de ceremonias",
+  "Decoración",
+  "Floristería",
+  "Tramitación de expediente",
+  "Invitaciones y papelería",
+  "Catering",
+  "Pastelerías",
+  "Hoteles y transporte",
+  "Música",
+  "Entretenimiento y animación infantil",
+  "Joyería",
+  "Peluquería y maquillaje",
+  "Spa y tratamientos de belleza",
+  "Diseñadores y atelier de vestidos de novia",
+  "Regalitos y detalles",
+  "Despedidas de solteros",
+  "Agencias de viajes de novios",
+];
+
+const Services = memo(({ t }: { t: any }) => {
 
   return (
     <div className="page-transition pt-32 bg-champagne min-h-screen">
@@ -1859,7 +1863,7 @@ const Services = memo(({ t }: { t: any }) => {
               {t.services}
             </span>
 
-            <h1 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif underline decoration-[#8FB1FF] decoration-2 underline-offset-8 inline-block">
+            <h1 className="font-serif text-5xl md:text-7xl font-light editorial-title italic-serif">
               {t.servicesTitle}
             </h1>
 
@@ -1971,7 +1975,8 @@ const Services = memo(({ t }: { t: any }) => {
 ========================================================= */
 
 const Premium = memo(({ t }: { t: any }) => {
-  const premiumServices: PremiumService[] = [
+  const premiumServices = useMemo<PremiumService[]>(
+    () => [
     {
       number: "01",
 
@@ -2064,7 +2069,9 @@ const Premium = memo(({ t }: { t: any }) => {
       includes: undefined,
       includesTitle: undefined,
     },
-  ];
+    ],
+    [t]
+  );
 
   return (
     <div className="page-transition pt-32 bg-champagne min-h-screen text-taupe">
@@ -2528,6 +2535,26 @@ const Contact = memo(({ t }: { t: any }) => {
                 </p>
                 <span className="text-sm tracking-[0.2em] uppercase font-light">
                   @una_simple_boda
+                </span>
+              </div>
+            </a>
+
+            <a
+              href="https://www.facebook.com/yaleniseventandweddingplanner?mibextid=wwXIfr&rdid=ZMef0W5DfKykd1Q4&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1McBmvawkm%2F%3Fmibextid%3DwwXIfr#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-8 group cursor-pointer bg-white/50 backdrop-blur-sm rounded-full p-4 border border-[#8FB1FF]/10 hover:border-[#8FB1FF] transition-all duration-500"
+            >
+              <div className="w-16 h-16 border border-[#8FB1FF]/20 flex items-center justify-center group-hover:border-[#8FB1FF] transition-all duration-500 bg-white/50 rounded-full shrink-0">
+                <Facebook className="w-6 h-6 font-light text-[#8FB1FF]" />
+              </div>
+
+              <div className="text-left">
+                <p className="text-[8px] uppercase tracking-[0.4em] text-zinc-400 mb-1">
+                  Facebook
+                </p>
+                <span className="text-sm tracking-[0.2em] uppercase font-light">
+                  Yalenis Event & Wedding Planner
                 </span>
               </div>
             </a>
