@@ -1980,7 +1980,7 @@ const Premium = memo(({ t }: { t: any }) => {
     {
       number: "01",
 
-      image: img("bridal-styling.png"),
+      image: img("image.png"),
 
       title: t.premiumMainTitle,
 
