@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback, memo } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
@@ -235,7 +235,7 @@ const content = {
       "Quién es Raquel Rodríguez",
 
     premiumCeremonyWho:
-      "Fundadora de La Novia de los Labios Rojos, es wedding planner y maestra de ceremonias. Ella entiende las bodas como una experiencia que debe sentirse, no simplemente organizarse. La apasiona contar historias y encontrar la emoción que existe detrás de cada pareja para convertirla en palabras. Crea ceremonias con personalidad, alejadas de los discursos impersonales y de los textos vacíos. Cada ceremonia empieza escuchándoos y termina convirtiéndose en un momento que habla de vosotros.",
+      "Fundadora de La Novia de los Labios Rojos, es wedding planner y maestra de ceremonias. Ella entiende las bodas como una experiencia que debe sentirse, no simplemente organizarse. La apasiona contar historias y encontrar la emoción que existe detrás de cada pareja para convertirla en palabras. Crea ceremonias con personalidad, alejadas de los discursos impersonales y de los textos vacíos. Cada ceremonia empieza escuchándolos y termina convirtiéndose en un momento que habla de vosotros.",
 
     premiumCeremonyQuote:
       "Porque una ceremonia que habla de vosotros, no se olvida.",
